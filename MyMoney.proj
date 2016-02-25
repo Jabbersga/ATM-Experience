@@ -1,0 +1,11 @@
+﻿<?Infragistics.Models format="xaml" version="4"?>
+<Project xmlns="http://prototypes.infragistics.com/"
+                                                           Id="6RIHA5REZU53" StartScreens="/iPhone5/Money App.screen" IndigoVersion="2" RecentColors="#FF8D8D8D">
+    <Project.Defaults>
+        <ProjectDefaults Viewport="375,647">
+            <ProjectDefaults.Device>
+                <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+            </ProjectDefaults.Device>
+        </ProjectDefaults>
+    </Project.Defaults>
+</Project>

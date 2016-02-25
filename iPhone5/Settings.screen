@@ -1,0 +1,146 @@
+﻿<?Infragistics.Models format="xaml" version="28"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                         xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                         Id="b99c6d55-7d2d-15de-ea83-b79400a5fd44">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="34bbd4c0-2a4b-8143-78c4-0e658fadfb74">
+            <Content.Layers>
+                <Layer Id="4e48997d-78b7-28c9-a2a2-733fa91d630a" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="836302af-7150-15cc-e586-4ab31bda9580" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="8af99135-110a-24b0-1a7c-4895c1298983" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="12d8fc2b-acb1-b137-12d2-439818cb9815" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="08/23/2013 19:35:16" Id="5038a943-67a5-ea0a-62e9-e288b1ccd4bb">
+            <Scene.KeyFrames>
+                <KeyFrame Id="4aaa5de7-9061-c025-08f9-9f8228ee5457">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="4e48997d-78b7-28c9-a2a2-733fa91d630a">
+                            <Add.Item>
+                                <i:Header Text="SETTINGS" Background="#FF717171" Foreground="#FFE2E2E2" FontFamily="Roboto Condensed" Id="33ed558e-4c48-3984-0480-a6097e56005c" Panel.Bounds="0,0,375{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4e48997d-78b7-28c9-a2a2-733fa91d630a">
+                            <Add.Item>
+                                <i:ActionButton ButtonType="Edit" Text="Done" Background="#FF484848" Foreground="#FFFFFFFF" Id="bfc47977-a5cd-bb5a-5013-2eef2727a231" Panel.Bounds="314,8,56{20,2147483647},30{5,2147483647}">
+                                    <i:ActionButton.Click>
+                                        <CommandNavigate Screen="/iPhone5/Money App.screen" State="1a9ae2bf-8452-4c18-91c4-d6959c1deb69" Created="08/28/2013 19:19:58" Id="5c018e3c-ab85-9fd2-abf6-aa56d33fb616">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Flip" Duration="300" Direction="Right" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:ActionButton.Click>
+                                </i:ActionButton>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4e48997d-78b7-28c9-a2a2-733fa91d630a">
+                            <Add.Item>
+                                <i:ActionSheetButton ButtonType="Delete" Text="Sign Out" Foreground="#FFFD472B" Id="4eac37e1-87f6-bd53-87b1-f4497665c847" Panel.Bounds="40,578,304{25,2147483647},44*{44,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4e48997d-78b7-28c9-a2a2-733fa91d630a">
+                            <Add.Item>
+                                <i:AdvancedSettings Direction="Vertical" Thickness="0" Id="c18cb8b1-d167-c94f-16be-93981f9b3a4a" Panel.Bounds="0,58,375{5,2147483647},5*{5,2147483647}">
+                                    <i:AdvancedSettings.Template>
+                                        <Template Id="0d89c84f-fc0a-234e-e41d-857a4d55cdee">
+                                            <Template.Content>
+                                                <ListItemContent Color="#FFFFFFFF" Thickness="0" Padding="0" Id="909dd048-cb41-c207-41bc-8adf283c0b3e" Panel.Bounds="0,0,0*,45" Panel.Layout="Stretch">
+                                                    <ListItemContent.Content>
+                                                        <Container ClipToContainer="True" Id="fda68f8a-f94b-0be9-f945-74e2452bcbc6">
+                                                            <Container.Children>
+                                                                <i:Label Text="Setting" Foreground="#FF555555" FontSize="16" FontFamily="Roboto" Id="4bef23c6-a51c-e1c3-02b6-385a0672ecd4" Panel.Bounds="59,12,0*,0*" />
+                                                                <i:Label Text="On" Align="Right" Foreground="#FF909090" FontSize="16" Id="6e799315-8321-8199-7207-519e3511b59c" Panel.Bounds="250,12,90,22" />
+                                                                <Icon Color="#FF909090" CatalogId="Greater Than" Id="155abcb6-57c3-6aa5-8e9a-246d0ddf4326" Panel.Bounds="346,16,15,15" />
+                                                                <ContainerBox Background="#FF0070FF" Thickness="0" CornerRadius="6" Id="3d9f63bc-e232-619f-5fa8-891db4c41b17" Panel.Bounds="15,8,29,29">
+                                                                    <ContainerBox.Content>
+                                                                        <Container ClipToContainer="True" Id="8707cded-f765-cae8-0712-b88def935a7c">
+                                                                            <Container.Children>
+                                                                                <Icon Color="#FFFFFFFF" CatalogId="Gears" Id="80a9ad69-ac91-c957-7512-96b5438fa643" Panel.Bounds="6,6,17,17" />
+                                                                            </Container.Children>
+                                                                        </Container>
+                                                                    </ContainerBox.Content>
+                                                                </ContainerBox>
+                                                                <Line Thickness="1" Color="#FFE3E3E5" Id="e408469a-600c-3e8d-014f-5afc47e3ac99" Panel.Bounds="59,1,316,3">
+                                                                    <Line.StartPoint>
+                                                                        <Point X="49" Id="a1377854-629d-39f7-9b7f-3511f9a19b63" />
+                                                                    </Line.StartPoint>
+                                                                    <Line.Segments>
+                                                                        <Segment Id="67db1056-8541-17c5-dcb9-b1397bf7ff29">
+                                                                            <Segment.EndPoint>
+                                                                                <Point X="365" Id="15cbe222-7ef2-1931-bb32-3e287b4b6fda" />
+                                                                            </Segment.EndPoint>
+                                                                        </Segment>
+                                                                    </Line.Segments>
+                                                                </Line>
+                                                            </Container.Children>
+                                                        </Container>
+                                                    </ListItemContent.Content>
+                                                </ListItemContent>
+                                            </Template.Content>
+                                        </Template>
+                                    </i:AdvancedSettings.Template>
+                                    <i:AdvancedSettings.Items>
+                                        <ListItem Id="27ecc9de-f3c8-9b50-6494-5d0cdffd08d8">
+                                            <ListItem.Content>
+                                                <SharedPart Id="b0ee38bd-d523-380a-e58f-994cb814b22e">
+                                                    <SharedPart.Customizations>
+                                                        <Add Property="Panel.Children" Target="fda68f8a-f94b-0be9-f945-74e2452bcbc6">
+                                                            <Add.Item>
+                                                                <i:Switch OnText="ON" OffText="OFF" Id="b6668325-120c-4448-208b-70403dd49097" Panel.Bounds="309,7,0*,0*" />
+                                                            </Add.Item>
+                                                        </Add>
+                                                        <Set Property="ContainerBox.Padding" Value="0,1,0,0" Target="909dd048-cb41-c207-41bc-8adf283c0b3e" />
+                                                        <Set Property="Panel.Bounds" Value="0,0,0*,44" Target="909dd048-cb41-c207-41bc-8adf283c0b3e" />
+                                                        <Set Property="Label.Text" Value="Expense Alerts" Target="4bef23c6-a51c-e1c3-02b6-385a0672ecd4" />
+                                                        <Set Property="Icon.CatalogId" Value="iOS 7 Flag" Target="80a9ad69-ac91-c957-7512-96b5438fa643" />
+                                                        <Set Property="ContainerBox.Background" Value="#FFFF9500" Target="3d9f63bc-e232-619f-5fa8-891db4c41b17" />
+                                                        <Set Property="Icon.IsSelected" Value="True" Target="80a9ad69-ac91-c957-7512-96b5438fa643" />
+                                                        <Remove Target="6e799315-8321-8199-7207-519e3511b59c" />
+                                                        <Remove Target="155abcb6-57c3-6aa5-8e9a-246d0ddf4326" />
+                                                        <Remove Target="e408469a-600c-3e8d-014f-5afc47e3ac99" />
+                                                    </SharedPart.Customizations>
+                                                </SharedPart>
+                                            </ListItem.Content>
+                                        </ListItem>
+                                        <ListItem Id="d823e2f9-1fc4-2c99-25de-c678311b84b8">
+                                            <ListItem.Content>
+                                                <SharedPart Id="d7edc9f3-faa4-6acb-1298-4741994c573c">
+                                                    <SharedPart.Customizations>
+                                                        <Set Property="Label.Text" Value="Passcode " Target="4bef23c6-a51c-e1c3-02b6-385a0672ecd4" />
+                                                        <Set Property="Icon.CatalogId" Value="Lock" Target="80a9ad69-ac91-c957-7512-96b5438fa643" />
+                                                        <Set Property="ContainerBox.Background" Value="#FFB1413F" Target="3d9f63bc-e232-619f-5fa8-891db4c41b17" />
+                                                        <Remove Target="6e799315-8321-8199-7207-519e3511b59c" />
+                                                    </SharedPart.Customizations>
+                                                </SharedPart>
+                                            </ListItem.Content>
+                                        </ListItem>
+                                        <ListItem Id="499cac68-a8f2-5178-6f0a-d7c474f21647">
+                                            <ListItem.Content>
+                                                <SharedPart Id="e34df120-6176-3838-bc58-377c3cf1ae97">
+                                                    <SharedPart.Customizations>
+                                                        <Set Property="Icon.CatalogId" Value="Bluetooth" Target="80a9ad69-ac91-c957-7512-96b5438fa643" />
+                                                        <Set Property="Label.Text" Value="Bluetooth" Target="4bef23c6-a51c-e1c3-02b6-385a0672ecd4" />
+                                                        <Set Property="Label.Text" Value="Off" Target="6e799315-8321-8199-7207-519e3511b59c" />
+                                                    </SharedPart.Customizations>
+                                                </SharedPart>
+                                            </ListItem.Content>
+                                        </ListItem>
+                                    </i:AdvancedSettings.Items>
+                                </i:AdvancedSettings>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

@@ -1,0 +1,1620 @@
+﻿<?Infragistics.Models format="xaml" version="28"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                         xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                         xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                         xmlns:i2="http://prototypes.infragistics.com/ios/"
+                                                         Id="77254ae6-8eee-2d71-a063-25907eca77f2" d:Design.ShowOpeningAnimation="True" d:Design.ShowGuides="False">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="03e8aabe-cebf-32a5-8e53-77fdd24262a1">
+            <Content.Layers>
+                <Layer Id="4c8afac8-e845-8844-d017-10b7d44b7d69" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="fa8daa72-0b4e-ef0d-832c-2477d524169f" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="58f7896d-8a03-1454-d797-5bf77be6de4b" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="dec23f31-93cf-1b16-bff8-207fb925dc0f" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="08/21/2013 15:48:44" Id="1a9ae2bf-8452-4c18-91c4-d6959c1deb69">
+            <Scene.KeyFrames>
+                <KeyFrame Duration="50" Id="0bc97552-c867-62f3-de62-79db8c936839">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="4c8afac8-e845-8844-d017-10b7d44b7d69">
+                            <Add.Item>
+                                <Rectangle Thickness="1,3,1,1" CornerRadius="4" Color="#FF8D8D8D" Background="#FFC6C6C6" Id="bc40d25c-099f-7e45-5e4f-b0f87cf38450" Panel.Bounds="13,187,348{5,2147483647},9{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4c8afac8-e845-8844-d017-10b7d44b7d69">
+                            <Add.Item>
+                                <List Direction="Vertical" BorderColor="#FFC6C6C6" Thickness="1,0,1,2" CornerRadius="2,2,0,0" Id="d1c265c2-a952-8ebb-663b-030b83fc2847" Panel.Bounds="20,193,337{5,2147483647},454{5,2147483647}">
+                                    <List.Template>
+                                        <Template Id="c0c555f4-ad6a-d756-f7b2-51aa80ee1699">
+                                            <Template.Content>
+                                                <ListItemContent Color="#FFFFFFFF" Thickness="0" Padding="0" Id="034b5f87-e278-0837-3d92-5105ba978a1e" Panel.Bounds="0,0,290*,74" Panel.Layout="Stretch">
+                                                    <ListItemContent.Content>
+                                                        <Container ClipToContainer="True" Id="54915482-a398-d6e0-25b6-6760def8cdb9">
+                                                            <Container.Children>
+                                                                <Ellipse Thickness="0" Background="#FF1C1C1C" Id="7d51c2d4-b98c-4428-3552-1cadcd4ac924" Panel.Bounds="16,12,48{5,2147483647},48{5,2147483647}" />
+                                                                <Icon Color="#D8FFFFFF" CatalogId="Coffee" Id="62257dfb-9ca0-a25f-d90f-c6abd617645d" Panel.Bounds="28,24,24{5,2147483647},24{5,2147483647}" />
+                                                                <i:Title Text="Coffee" FontSize="18" FontFamily="Roboto" FontStyle="Normal" Id="3ce5907a-2f2c-653d-51fb-35ef1d473793" Panel.Bounds="86,15,5*{5,2147483647},5*{5,2147483647}" />
+                                                                <i:Label Text="@ STARBUCKS" Foreground="#FFAAAAAA" FontFamily="Roboto" Id="2e1910ca-2422-cc55-4cb3-7dffa3542d31" Panel.Bounds="86,38,5*{5,2147483647},5*{5,2147483647}" />
+                                                                <i:Title Text="4" Align="Right" Foreground="#FFAAAAAA" FontSize="36" FontFamily="Roboto Condensed" FontStyle="Normal" Id="2ab928fd-20d0-d7dc-9f15-0c2353f466ab" Panel.Bounds="225,12,70{5,2147483647},48*{5,2147483647}" />
+                                                                <i:Title Text="75" Foreground="#FFAAAAAA" FontSize="14" FontFamily="Roboto Condensed" FontStyle="Normal" Id="5b0bda5a-938d-8b48-33ab-bc3de4ddfcce" Panel.Bounds="299,20,51*,50*" />
+                                                            </Container.Children>
+                                                        </Container>
+                                                    </ListItemContent.Content>
+                                                </ListItemContent>
+                                            </Template.Content>
+                                        </Template>
+                                    </List.Template>
+                                    <List.Items>
+                                        <ListItem Id="210531a6-50da-003c-ea13-b8c278c5f5da">
+                                            <ListItem.Content>
+                                                <SharedPart Id="1354c2fd-d229-c06f-e5dc-a096aca5ca25">
+                                                    <SharedPart.Customizations>
+                                                        <Add Property="Panel.Children" Target="54915482-a398-d6e0-25b6-6760def8cdb9">
+                                                            <Add.Item>
+                                                                <Label Text="TODAY" FontSize="11" FontStyle="Normal|Bold" Opacity="0.2" Id="d917e904-6f3d-462e-5fc5-62e1c770bdc1" Panel.Bounds="9,4,5*{5,2147483647},5*{5,2147483647}" />
+                                                            </Add.Item>
+                                                        </Add>
+                                                        <Add Property="Panel.Children" Target="54915482-a398-d6e0-25b6-6760def8cdb9">
+                                                            <Add.Item>
+                                                                <Label Text="$19.25" FontFamily="Roboto Condensed" FontStyle="Bold" Opacity="0.6" Id="436079c9-df66-e654-d42e-348108bbbb64" Panel.Bounds="271,3,5*{5,2147483647},5*{5,2147483647}" />
+                                                            </Add.Item>
+                                                        </Add>
+                                                        <Resize To="290,25" Target="034b5f87-e278-0837-3d92-5105ba978a1e" />
+                                                        <Set Property="ContainerBox.Background" Value="#54E2E2E2" Target="034b5f87-e278-0837-3d92-5105ba978a1e" />
+                                                        <Set Property="ContainerBox.Thickness" Value="0,1,0,1" Target="034b5f87-e278-0837-3d92-5105ba978a1e" />
+                                                        <Set Property="ContainerBox.Color" Value="#FFE2E2E2" Target="034b5f87-e278-0837-3d92-5105ba978a1e" />
+                                                        <Remove Target="3ce5907a-2f2c-653d-51fb-35ef1d473793" />
+                                                        <Remove Target="5b0bda5a-938d-8b48-33ab-bc3de4ddfcce" />
+                                                        <Remove Target="2e1910ca-2422-cc55-4cb3-7dffa3542d31" />
+                                                        <Remove Target="62257dfb-9ca0-a25f-d90f-c6abd617645d" />
+                                                        <Remove Target="2ab928fd-20d0-d7dc-9f15-0c2353f466ab" />
+                                                        <Remove Target="44d9de3c-4fb5-739a-0e39-c2d510eb3527" />
+                                                        <Remove Target="7d51c2d4-b98c-4428-3552-1cadcd4ac924" />
+                                                    </SharedPart.Customizations>
+                                                </SharedPart>
+                                            </ListItem.Content>
+                                        </ListItem>
+                                        <ListItem Id="a49b5976-71d5-3105-6f05-20b861afe25f" Name="Coffee NEW">
+                                            <ListItem.Content>
+                                                <SharedPart Id="df5bcaf1-8910-68ed-230a-bec02b8d3728">
+                                                    <SharedPart.Customizations>
+                                                        <Add Property="Panel.Children" Target="54915482-a398-d6e0-25b6-6760def8cdb9">
+                                                            <Add.Item>
+                                                                <ContainerBox Color="#FF830000" Background="#FFC76361" Thickness="2,0,0,0" Id="a00d175c-201d-01bc-16d0-95656daf91b3" Name="delete container" Panel.Bounds="340,1,89{5,2147483647},72{5,2147483647}">
+                                                                    <ContainerBox.Content>
+                                                                        <Container ClipToContainer="True" Id="b6de249a-bf51-692c-3fd0-d1d6fbd0bc51">
+                                                                            <Container.Children>
+                                                                                <Group GroupName="Group" Id="eaf1e780-3597-a1c2-9568-a5c04be16d2c" Name="Delete" Panel.Bounds="16,5,0*,0*" />
+                                                                                <Icon IsSelected="True" Color="#FFFFFFFF" CatalogId="iOS 7 Trash" Id="257547f0-8a9b-8336-4312-a5f28d2d3e2f" Panel.Bounds="30,17,24{5,2147483647},24{5,2147483647}" />
+                                                                                <Label Text="Delete" Foreground="#FFFFFFFF" FontSize="11" Opacity="0.8" Id="176413d3-9f47-efc8-057a-37481eb15776" Panel.Bounds="25,45,28*,18*" />
+                                                                            </Container.Children>
+                                                                        </Container>
+                                                                    </ContainerBox.Content>
+                                                                </ContainerBox>
+                                                            </Add.Item>
+                                                        </Add>
+                                                        <Add Property="Panel.Children" Target="54915482-a398-d6e0-25b6-6760def8cdb9">
+                                                            <Add.Item>
+                                                                <ContainerBox Color="#FF1C1C1C" Background="#FF555555" Thickness="0,0,2,0" Id="8d102236-d164-0aa2-45fb-6c9fb2b3315e" Name="Edit container" Panel.Bounds="-94,0,89{5,2147483647},72{5,2147483647}">
+                                                                    <ContainerBox.Content>
+                                                                        <Container ClipToContainer="True" Id="71e8ae06-77d5-c1ad-71f7-a1e182b906f2" Panel.Bounds="0,0,84*,58*">
+                                                                            <Container.Children>
+                                                                                <Group GroupName="Group" Id="42548b91-93f2-ff5d-b7f7-3c3ffe1e6372" Name="Edit group" Panel.Bounds="21,5,34*,43*" />
+                                                                                <Icon Color="#FFFFFFFF" CatalogId="Edit" Opacity="0.8" Id="6fcf7ef1-2128-c248-bca8-7fae4d6022ce" Panel.Bounds="30,16,24{5,2147483647},24{5,2147483647}" />
+                                                                                <Label Text="Edit" Foreground="#FFFFFFFF" FontSize="11" Opacity="0.8" Id="4dc9f272-e8be-ec61-e021-e45e8a4fb1f2" Panel.Bounds="31,44,34*,15*" />
+                                                                            </Container.Children>
+                                                                        </Container>
+                                                                    </ContainerBox.Content>
+                                                                </ContainerBox>
+                                                            </Add.Item>
+                                                        </Add>
+                                                        <Set Property="Shape.Background" Value="#FF735D3E" Target="7d51c2d4-b98c-4428-3552-1cadcd4ac924" />
+                                                    </SharedPart.Customizations>
+                                                </SharedPart>
+                                            </ListItem.Content>
+                                            <ListItem.SwipeRight>
+                                                <CommandNext SceneId="51b932b6-87dc-71fc-e435-beff7fd573d8" AutoRevertEvent="Control.SwipeLeft" Created="09/03/2013 15:05:53" Id="44bc89a5-f23a-f831-fa06-6014a4a3233c" />
+                                            </ListItem.SwipeRight>
+                                            <ListItem.SwipeLeft>
+                                                <CommandNext SceneId="c4aba7f2-0376-3220-85b6-febfea6dd997" AutoRevertEvent="Control.SwipeRight" AutoRevertDuration="450" Created="08/26/2013 18:52:02" Id="05c4ce51-4c06-d0e3-2ac6-1aab1a73d461" />
+                                            </ListItem.SwipeLeft>
+                                        </ListItem>
+                                        <ListItem Id="8410cacc-f4d7-47fd-d7c1-5b9419f071b1" Name="movies">
+                                            <ListItem.Content>
+                                                <SharedPart Id="0849d384-32ef-b454-7112-bc0706d60d94">
+                                                    <SharedPart.Customizations>
+                                                        <Set Property="Icon.CatalogId" Value="Ticket" Target="62257dfb-9ca0-a25f-d90f-c6abd617645d" />
+                                                        <Set Property="Label.Text" Value="Movie" Target="3ce5907a-2f2c-653d-51fb-35ef1d473793" />
+                                                        <Set Property="Label.Text" Value="RISE OF GORT" Target="2e1910ca-2422-cc55-4cb3-7dffa3542d31" />
+                                                        <Set Property="Shape.Color" Value="#FFE09D0D" Target="7d51c2d4-b98c-4428-3552-1cadcd4ac924" />
+                                                        <Set Property="Shape.Background" Value="#FFEBB603" Target="7d51c2d4-b98c-4428-3552-1cadcd4ac924" />
+                                                    </SharedPart.Customizations>
+                                                </SharedPart>
+                                            </ListItem.Content>
+                                        </ListItem>
+                                        <ListItem Id="a439accc-78de-79f6-2947-b688175b1d07">
+                                            <ListItem.Content>
+                                                <SharedPart Id="0fdd3d16-4b90-d98c-1ec8-0de32b4c54e9">
+                                                    <SharedPart.Customizations>
+                                                        <Add Property="Panel.Children" Target="54915482-a398-d6e0-25b6-6760def8cdb9">
+                                                            <Add.Item>
+                                                                <Label Text="YESTERDAY" FontSize="11" FontStyle="Normal|Bold" Opacity="0.2" Id="befc5d86-3df5-906a-fb74-16234054de2a" Panel.Bounds="9,4,5*{5,2147483647},5*{5,2147483647}" />
+                                                            </Add.Item>
+                                                        </Add>
+                                                        <Add Property="Panel.Children" Target="54915482-a398-d6e0-25b6-6760def8cdb9">
+                                                            <Add.Item>
+                                                                <Label Text="$375.25" Foreground="#FFC0504D" FontFamily="Roboto Condensed" FontStyle="Normal|Bold" Opacity="0.8" Id="27ef0228-4f01-aadb-6ef9-9123ea8f93db" Panel.Bounds="266,3,41*,18*" />
+                                                            </Add.Item>
+                                                        </Add>
+                                                        <Set Property="ContainerBox.Color" Value="#FFE2E2E2" Target="034b5f87-e278-0837-3d92-5105ba978a1e" />
+                                                        <Set Property="ContainerBox.Background" Value="#54E2E2E2" Target="034b5f87-e278-0837-3d92-5105ba978a1e" />
+                                                        <Set Property="ContainerBox.Thickness" Value="0,1,0,1" Target="034b5f87-e278-0837-3d92-5105ba978a1e" />
+                                                        <Resize To="290,25" Target="034b5f87-e278-0837-3d92-5105ba978a1e" />
+                                                        <Remove Target="44d9de3c-4fb5-739a-0e39-c2d510eb3527" />
+                                                        <Remove Target="62257dfb-9ca0-a25f-d90f-c6abd617645d" />
+                                                        <Remove Target="3ce5907a-2f2c-653d-51fb-35ef1d473793" />
+                                                        <Remove Target="2e1910ca-2422-cc55-4cb3-7dffa3542d31" />
+                                                        <Remove Target="2ab928fd-20d0-d7dc-9f15-0c2353f466ab" />
+                                                        <Remove Target="5b0bda5a-938d-8b48-33ab-bc3de4ddfcce" />
+                                                        <Remove Target="7d51c2d4-b98c-4428-3552-1cadcd4ac924" />
+                                                    </SharedPart.Customizations>
+                                                </SharedPart>
+                                            </ListItem.Content>
+                                        </ListItem>
+                                        <ListItem Id="f3bc96ed-8f8b-9d55-5756-bb0c623da55d">
+                                            <ListItem.Content>
+                                                <SharedPart Id="6ec1c7b2-6379-4ea3-c944-a6a7685e652f">
+                                                    <SharedPart.Customizations>
+                                                        <Set Property="Shape.Background" Value="#FF4281D0" Target="7d51c2d4-b98c-4428-3552-1cadcd4ac924" />
+                                                        <Set Property="Icon.CatalogId" Value="Airplane" Target="62257dfb-9ca0-a25f-d90f-c6abd617645d" />
+                                                        <Set Property="Label.Text" Value="Travel " Target="3ce5907a-2f2c-653d-51fb-35ef1d473793" />
+                                                        <Set Property="Label.Text" Value="GORT-AIR" Target="2e1910ca-2422-cc55-4cb3-7dffa3542d31" />
+                                                        <Set Property="Label.Text" Value="345" Target="2ab928fd-20d0-d7dc-9f15-0c2353f466ab" />
+                                                    </SharedPart.Customizations>
+                                                </SharedPart>
+                                            </ListItem.Content>
+                                        </ListItem>
+                                        <ListItem Id="6e0de731-f3b4-79dc-1f3d-ca9599178026">
+                                            <ListItem.Content>
+                                                <SharedPart Id="36bf69e6-571b-9e81-bc60-4b506d47bd4f">
+                                                    <SharedPart.Customizations>
+                                                        <Set Property="Icon.CatalogId" Value="Shopping Bag" Target="62257dfb-9ca0-a25f-d90f-c6abd617645d" />
+                                                        <Set Property="Shape.Background" Value="#FF8064A2" Target="7d51c2d4-b98c-4428-3552-1cadcd4ac924" />
+                                                        <Set Property="Label.Text" Value="Shopping" Target="3ce5907a-2f2c-653d-51fb-35ef1d473793" />
+                                                        <Set Property="Label.Text" Value="GORTZON.COM" Target="2e1910ca-2422-cc55-4cb3-7dffa3542d31" />
+                                                    </SharedPart.Customizations>
+                                                </SharedPart>
+                                            </ListItem.Content>
+                                        </ListItem>
+                                        <ListItem Id="fc2d2621-9007-c7a9-a908-474e2242a7ba">
+                                            <ListItem.Content>
+                                                <SharedPart Id="31788db4-8b4d-5b17-336d-69474e763443">
+                                                    <SharedPart.Customizations>
+                                                        <Set Property="Shape.Background" Value="#FFCB6009" Target="7d51c2d4-b98c-4428-3552-1cadcd4ac924" />
+                                                        <Set Property="Icon.CatalogId" Value="fa-truck" Target="62257dfb-9ca0-a25f-d90f-c6abd617645d" />
+                                                        <Set Property="Label.Text" Value="Mailing Svcs." Target="3ce5907a-2f2c-653d-51fb-35ef1d473793" />
+                                                        <Set Property="Label.Text" Value="GORT-AIR" Target="2e1910ca-2422-cc55-4cb3-7dffa3542d31" />
+                                                        <Set Property="Label.Text" Value="25" Target="2ab928fd-20d0-d7dc-9f15-0c2353f466ab" />
+                                                    </SharedPart.Customizations>
+                                                </SharedPart>
+                                            </ListItem.Content>
+                                        </ListItem>
+                                        <ListItem Id="5229761a-740e-e435-2849-db156ca62fc6">
+                                            <ListItem.Content>
+                                                <SharedPart Id="756226f4-7bb5-3e2a-939e-39618af5a340">
+                                                    <SharedPart.Customizations>
+                                                        <Set Property="ContainerBox.Color" Value="#FF735D3E" Target="034b5f87-e278-0837-3d92-5105ba978a1e" />
+                                                        <Set Property="Shape.Color" Value="#FF735D3E" Target="7d51c2d4-b98c-4428-3552-1cadcd4ac924" />
+                                                        <Set Property="Shape.Background" Value="#FF735D3E" Target="7d51c2d4-b98c-4428-3552-1cadcd4ac924" />
+                                                    </SharedPart.Customizations>
+                                                </SharedPart>
+                                            </ListItem.Content>
+                                        </ListItem>
+                                        <ListItem Id="0375030d-7923-a643-5972-d84f49a53ec2">
+                                            <ListItem.Content>
+                                                <SharedPart Id="d14b0ba4-8318-f293-d9fe-97efc64894af">
+                                                    <SharedPart.Customizations>
+                                                        <Set Property="Shape.Background" Value="#FFCB6009" Target="7d51c2d4-b98c-4428-3552-1cadcd4ac924" />
+                                                        <Set Property="Icon.CatalogId" Value="fa-truck" Target="62257dfb-9ca0-a25f-d90f-c6abd617645d" />
+                                                        <Set Property="Label.Text" Value="Mailing Svcs." Target="3ce5907a-2f2c-653d-51fb-35ef1d473793" />
+                                                        <Set Property="Label.Text" Value="GORT-AIR" Target="2e1910ca-2422-cc55-4cb3-7dffa3542d31" />
+                                                        <Set Property="Label.Text" Value="25" Target="2ab928fd-20d0-d7dc-9f15-0c2353f466ab" />
+                                                    </SharedPart.Customizations>
+                                                </SharedPart>
+                                            </ListItem.Content>
+                                        </ListItem>
+                                        <ListItem Id="15c87c88-b5ff-c6bf-cb4a-5ad1de8a3e0b">
+                                            <ListItem.Content>
+                                                <SharedPart Id="5cf5f16c-a99d-8339-47ea-beeb12de580c">
+                                                    <SharedPart.Customizations>
+                                                        <Set Property="ContainerBox.Color" Value="#FFE09D0D" Target="034b5f87-e278-0837-3d92-5105ba978a1e" />
+                                                        <Set Property="Shape.Color" Value="#FFE09D0D" Target="7d51c2d4-b98c-4428-3552-1cadcd4ac924" />
+                                                        <Set Property="Shape.Background" Value="#FFB1413F" Target="7d51c2d4-b98c-4428-3552-1cadcd4ac924" />
+                                                        <Set Property="Icon.CatalogId" Value="Club" Target="62257dfb-9ca0-a25f-d90f-c6abd617645d" />
+                                                        <Set Property="Label.Text" Value="Casino " Target="3ce5907a-2f2c-653d-51fb-35ef1d473793" />
+                                                        <Set Property="Label.Text" Value="GORT TOWN" Target="2e1910ca-2422-cc55-4cb3-7dffa3542d31" />
+                                                    </SharedPart.Customizations>
+                                                </SharedPart>
+                                            </ListItem.Content>
+                                        </ListItem>
+                                        <ListItem Id="6a487c23-a4c5-617a-9411-85c9d4518f0b">
+                                            <ListItem.Content>
+                                                <SharedPart Id="8f6c2c3a-7465-0381-277f-c3f31a63fa0f">
+                                                    <SharedPart.Customizations>
+                                                        <Set Property="ContainerBox.Background" Value="#54E2E2E2" Target="034b5f87-e278-0837-3d92-5105ba978a1e" />
+                                                        <Set Property="ContainerBox.Thickness" Value="0,1,0,1" Target="034b5f87-e278-0837-3d92-5105ba978a1e" />
+                                                        <Add Property="Panel.Children" Target="54915482-a398-d6e0-25b6-6760def8cdb9">
+                                                            <Add.Item>
+                                                                <Label Text="YESTERDAY" FontSize="11" FontStyle="Normal|Bold" Opacity="0.2" Id="fc20e728-04df-08a4-2f6f-833b52d9cd74" Panel.Bounds="9,4,5*{5,2147483647},5*{5,2147483647}" />
+                                                            </Add.Item>
+                                                        </Add>
+                                                        <Add Property="Panel.Children" Target="54915482-a398-d6e0-25b6-6760def8cdb9">
+                                                            <Add.Item>
+                                                                <Label Text="$375.25" Foreground="#FFC0504D" FontFamily="Roboto Condensed" FontStyle="Normal|Bold" Opacity="0.8" Id="869e4d79-d670-ec22-f9e6-bea73a4fe863" Panel.Bounds="266,3,41*,18*" />
+                                                            </Add.Item>
+                                                        </Add>
+                                                        <Resize To="290,25" Target="034b5f87-e278-0837-3d92-5105ba978a1e" />
+                                                        <Remove Target="7d51c2d4-b98c-4428-3552-1cadcd4ac924" />
+                                                        <Remove Target="62257dfb-9ca0-a25f-d90f-c6abd617645d" />
+                                                        <Remove Target="3ce5907a-2f2c-653d-51fb-35ef1d473793" />
+                                                        <Remove Target="2e1910ca-2422-cc55-4cb3-7dffa3542d31" />
+                                                        <Remove Target="2ab928fd-20d0-d7dc-9f15-0c2353f466ab" />
+                                                        <Remove Target="5b0bda5a-938d-8b48-33ab-bc3de4ddfcce" />
+                                                    </SharedPart.Customizations>
+                                                </SharedPart>
+                                            </ListItem.Content>
+                                        </ListItem>
+                                        <ListItem Id="42f2eca6-8379-8656-0f01-b50cc626c0ca">
+                                            <ListItem.Content>
+                                                <SharedPart Id="34d00126-7e60-3652-8c3c-25c3b130fa39">
+                                                    <SharedPart.Customizations>
+                                                        <Set Property="Shape.Background" Value="#FF4281D0" Target="7d51c2d4-b98c-4428-3552-1cadcd4ac924" />
+                                                        <Set Property="Icon.CatalogId" Value="Airplane" Target="62257dfb-9ca0-a25f-d90f-c6abd617645d" />
+                                                        <Set Property="Label.Text" Value="Travel " Target="3ce5907a-2f2c-653d-51fb-35ef1d473793" />
+                                                        <Set Property="Label.Text" Value="GORT-AIR" Target="2e1910ca-2422-cc55-4cb3-7dffa3542d31" />
+                                                        <Set Property="Label.Text" Value="345" Target="2ab928fd-20d0-d7dc-9f15-0c2353f466ab" />
+                                                    </SharedPart.Customizations>
+                                                </SharedPart>
+                                            </ListItem.Content>
+                                        </ListItem>
+                                        <ListItem Id="a8117add-9a56-4df7-15f5-e6ec65827872">
+                                            <ListItem.Content>
+                                                <SharedPart Id="00d9dcaa-9780-e7c7-e62f-674055234416">
+                                                    <SharedPart.Customizations>
+                                                        <Set Property="ContainerBox.Color" Value="#FFE09D0D" Target="034b5f87-e278-0837-3d92-5105ba978a1e" />
+                                                        <Set Property="Shape.Color" Value="#FFE09D0D" Target="7d51c2d4-b98c-4428-3552-1cadcd4ac924" />
+                                                        <Set Property="Shape.Background" Value="#FFEBB603" Target="7d51c2d4-b98c-4428-3552-1cadcd4ac924" />
+                                                        <Set Property="Icon.CatalogId" Value="Ticket" Target="62257dfb-9ca0-a25f-d90f-c6abd617645d" />
+                                                        <Set Property="Label.Text" Value="Movie" Target="3ce5907a-2f2c-653d-51fb-35ef1d473793" />
+                                                        <Set Property="Label.Text" Value="RISE OF GORT" Target="2e1910ca-2422-cc55-4cb3-7dffa3542d31" />
+                                                    </SharedPart.Customizations>
+                                                </SharedPart>
+                                            </ListItem.Content>
+                                        </ListItem>
+                                        <ListItem Id="fdd817c5-4a1d-8d34-dd11-2862f575792f">
+                                            <ListItem.Content>
+                                                <SharedPart Id="9250c76f-9e1e-7687-39de-3cfdee0fcc67">
+                                                    <SharedPart.Customizations>
+                                                        <Set Property="Label.Text" Value="345" Target="2ab928fd-20d0-d7dc-9f15-0c2353f466ab" />
+                                                        <Set Property="Label.Text" Value="Travel " Target="3ce5907a-2f2c-653d-51fb-35ef1d473793" />
+                                                        <Set Property="Label.Text" Value="GORT-AIR" Target="2e1910ca-2422-cc55-4cb3-7dffa3542d31" />
+                                                        <Set Property="Icon.CatalogId" Value="Airplane" Target="62257dfb-9ca0-a25f-d90f-c6abd617645d" />
+                                                        <Set Property="Shape.Background" Value="#FF4281D0" Target="7d51c2d4-b98c-4428-3552-1cadcd4ac924" />
+                                                        <Resize To="290,143" Target="034b5f87-e278-0837-3d92-5105ba978a1e" />
+                                                    </SharedPart.Customizations>
+                                                </SharedPart>
+                                            </ListItem.Content>
+                                        </ListItem>
+                                    </List.Items>
+                                </List>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4c8afac8-e845-8844-d017-10b7d44b7d69">
+                            <Add.Item>
+                                <Label Id="0e720fd0-3383-28d1-8ea9-25f30936ef7d" Panel.Bounds="15,516,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4c8afac8-e845-8844-d017-10b7d44b7d69">
+                            <Add.Item>
+                                <i:Header Text="Expense" Background="#FF484848" GradientType="None" Foreground="#FFE2E2E2" FontSize="24" FontFamily="Roboto Condensed" FontStyle="Normal" Id="24a94daf-fcd8-c50a-9e19-82201f89009f" Panel.Bounds="0,0,375{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4c8afac8-e845-8844-d017-10b7d44b7d69">
+                            <Add.Item>
+                                <Icon Color="#FFFFFFFF" CatalogId="Gears" Id="6c89d22e-98ab-de58-cd34-8984c9fdecf3" Panel.Bounds="341,13,19{5,2147483647},19{5,2147483647}">
+                                    <Icon.Click>
+                                        <CommandNavigate Screen="/iPhone5/Settings.screen" Created="08/23/2013 19:35:16" Id="773df1a2-9ecd-438b-4ab4-082ee809984c">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Flip" Duration="400" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Icon.Click>
+                                </Icon>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4c8afac8-e845-8844-d017-10b7d44b7d69">
+                            <Add.Item>
+                                <i:Title Text="JULY 29" Foreground="#FFFFFFFF" FontSize="13" FontFamily="Roboto Condensed" Id="779a7d8a-17eb-d918-1bda-9fc21b5b62dc" Panel.Bounds="8,6,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4c8afac8-e845-8844-d017-10b7d44b7d69">
+                            <Add.Item>
+                                <i:Title Text="WEEK 31" Foreground="#FFFFFFFF" FontSize="18" FontFamily="Roboto Condensed" FontStyle="Normal" Opacity="0.4" Id="3c89b8d3-80e0-771d-e898-be7c3be07099" Panel.Bounds="8,19,42*,17*" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="GuidesInfo.Guides" Target="dec23f31-93cf-1b16-bff8-207fb925dc0f">
+                            <Add.Item>
+                                <Guide Position="328" Id="4aaa1a6b-9021-39af-ac15-e3fea23ccea2" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="GuidesInfo.Guides" Target="dec23f31-93cf-1b16-bff8-207fb925dc0f">
+                            <Add.Item>
+                                <Guide Position="311" Id="1b6ed0af-568b-56ef-67ee-8392138c3e4a" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="bc40d25c-099f-7e45-5e4f-b0f87cf38450" Target="4c8afac8-e845-8844-d017-10b7d44b7d69">
+                            <Add.Item>
+                                <ContainerBox Thickness="0" Id="3e4ebdc7-c469-f753-7d8f-dc0dbe360b74" Name="Weekly Chart" Panel.Bounds="0,46,375{5,2147483647},126{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="b751fc2d-1853-1639-2bb1-0ae6b6548c3c">
+                                            <Container.Children>
+                                                <List Direction="Horizontal" Background="#00FFFFFF" Thickness="0" Id="65ab4d55-84f7-db36-e75b-1cc68dfc9ec9" Name="weekly chart" Panel.Bounds="15,22,348{5,2147483647},95{5,2147483647}">
+                                                    <List.Template>
+                                                        <Template Id="43ac10aa-4d6d-5271-6ab2-cd07e0020029">
+                                                            <Template.Content>
+                                                                <ListItemContent Thickness="0" Padding="0" Id="15d35b2e-d0d5-c921-562a-b1a65a58813a" Panel.Bounds="0,0,48,61*" Panel.Layout="Stretch">
+                                                                    <ListItemContent.Content>
+                                                                        <Container ClipToContainer="True" Id="c4443a81-76e3-4ab5-7e60-37a433b52f42">
+                                                                            <Container.Children>
+                                                                                <i:Label Text="S" Foreground="#FFAAAAAA" FontFamily="Roboto Condensed" FontStyle="Normal|Bold" Opacity="0.8" Id="31dee8e5-c3a9-ee9e-6e62-e58a699e19bb" Panel.Bounds="5,66,8*,20*" />
+                                                                                <Line Thickness="1" RotationAngle="90" Color="#FFC6C6C6" Background="#00FFFFFF" Opacity="0.6" Id="d7c39c27-1a42-6dbf-de2e-139e0137c888" Panel.Bounds="8,1,3,61">
+                                                                                    <Line.StartPoint>
+                                                                                        <Point Y="-7" Id="d0a65a18-d22d-9e6c-66d9-08d0eece1e8e" />
+                                                                                    </Line.StartPoint>
+                                                                                    <Line.Segments>
+                                                                                        <Segment Id="8e23cd1a-91f4-c7cf-a01e-d5b1182f5c14">
+                                                                                            <Segment.EndPoint>
+                                                                                                <Point Y="54" Id="3dd00b93-7fea-2866-eb50-a82945a5cae7" />
+                                                                                            </Segment.EndPoint>
+                                                                                        </Segment>
+                                                                                    </Line.Segments>
+                                                                                </Line>
+                                                                                <Ellipse Thickness="2" Id="2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" Panel.Bounds="4,19,9{5,2147483647},9{5,2147483647}" />
+                                                                            </Container.Children>
+                                                                        </Container>
+                                                                    </ListItemContent.Content>
+                                                                </ListItemContent>
+                                                            </Template.Content>
+                                                        </Template>
+                                                    </List.Template>
+                                                    <List.Items>
+                                                        <ListItem Id="e7449d04-82e6-cdfc-38e7-c276733ce607">
+                                                            <ListItem.Content>
+                                                                <SharedPart Id="e0cdf4a6-feea-bef3-d636-d147a05220fc">
+                                                                    <SharedPart.Customizations>
+                                                                        <Add Property="Panel.Children" Target="c4443a81-76e3-4ab5-7e60-37a433b52f42">
+                                                                            <Add.Item>
+                                                                                <Label Text="0" Foreground="#FFFFFFFF" FontSize="11" FontStyle="Normal|Bold" Id="fd400024-2019-a41e-52fc-7cbf45053f2c" Panel.Bounds="14,51,5*{5,2147483647},5*{5,2147483647}" />
+                                                                            </Add.Item>
+                                                                        </Add>
+                                                                        <Set Property="Text.Foreground" Value="#FF717171" Target="31dee8e5-c3a9-ee9e-6e62-e58a699e19bb" />
+                                                                        <Set Property="Control.Opacity" Value="1" Target="31dee8e5-c3a9-ee9e-6e62-e58a699e19bb" />
+                                                                        <Set Property="Shape.Color" Value="#FF383838" Target="2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" />
+                                                                        <Set Property="Control.Opacity" Value="0" Target="2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" />
+                                                                        <Move To="4,18" Target="2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" />
+                                                                        <Set Property="Shape.Background" Value="#FF383838" Target="2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" />
+                                                                    </SharedPart.Customizations>
+                                                                </SharedPart>
+                                                            </ListItem.Content>
+                                                        </ListItem>
+                                                        <ListItem Id="7da90583-cc59-7f43-e22e-6713d5756e7e">
+                                                            <ListItem.Content>
+                                                                <SharedPart Id="8d80ebc8-5fcc-8328-881c-c495babe9d91">
+                                                                    <SharedPart.Customizations>
+                                                                        <Set Property="Label.Text" Value="M" Target="31dee8e5-c3a9-ee9e-6e62-e58a699e19bb" />
+                                                                        <Set Property="Text.Foreground" Value="#FF717171" Target="31dee8e5-c3a9-ee9e-6e62-e58a699e19bb" />
+                                                                        <Set Property="Control.Opacity" Value="1" Target="31dee8e5-c3a9-ee9e-6e62-e58a699e19bb" />
+                                                                        <Set Property="Control.Opacity" Value="0" Target="2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" />
+                                                                        <Move To="4,38" Target="2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" />
+                                                                    </SharedPart.Customizations>
+                                                                </SharedPart>
+                                                            </ListItem.Content>
+                                                        </ListItem>
+                                                        <ListItem Id="0bfabca7-ae71-6d14-9be8-871342138161">
+                                                            <ListItem.Content>
+                                                                <SharedPart Id="09902b87-04a4-ca49-0463-c9a342a6e99d">
+                                                                    <SharedPart.Customizations>
+                                                                        <Set Property="Label.Text" Value="T" Target="31dee8e5-c3a9-ee9e-6e62-e58a699e19bb" />
+                                                                        <Set Property="Text.Foreground" Value="#FF717171" Target="31dee8e5-c3a9-ee9e-6e62-e58a699e19bb" />
+                                                                        <Set Property="Control.Opacity" Value="1" Target="31dee8e5-c3a9-ee9e-6e62-e58a699e19bb" />
+                                                                        <Set Property="Control.Opacity" Value="0" Target="2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" />
+                                                                        <Move To="4,44" Target="2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" />
+                                                                    </SharedPart.Customizations>
+                                                                </SharedPart>
+                                                            </ListItem.Content>
+                                                        </ListItem>
+                                                        <ListItem Id="d88f3a8f-3e24-152f-2de6-ab0e1a4ea518">
+                                                            <ListItem.Content>
+                                                                <SharedPart Id="ed26c466-06e0-2311-5457-9d59d63c611c">
+                                                                    <SharedPart.Customizations>
+                                                                        <Set Property="Label.Text" Value="W" Target="31dee8e5-c3a9-ee9e-6e62-e58a699e19bb" />
+                                                                        <Set Property="Text.Foreground" Value="#FF717171" Target="31dee8e5-c3a9-ee9e-6e62-e58a699e19bb" />
+                                                                        <Set Property="Control.Opacity" Value="1" Target="31dee8e5-c3a9-ee9e-6e62-e58a699e19bb" />
+                                                                        <Set Property="Shape.Color" Value="#FF383838" Target="2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" />
+                                                                        <Set Property="Control.Opacity" Value="0" Target="2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" />
+                                                                        <Move To="4,11" Target="2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" />
+                                                                    </SharedPart.Customizations>
+                                                                </SharedPart>
+                                                            </ListItem.Content>
+                                                        </ListItem>
+                                                        <ListItem Id="f93f7508-8caa-1d32-9fd5-8216075a503d">
+                                                            <ListItem.Content>
+                                                                <SharedPart Id="8fe09f03-120a-7381-67ec-4bb03e367c56">
+                                                                    <SharedPart.Customizations>
+                                                                        <Set Property="Label.Text" Value="Th" Target="31dee8e5-c3a9-ee9e-6e62-e58a699e19bb" />
+                                                                        <Set Property="Text.Foreground" Value="#FF717171" Target="31dee8e5-c3a9-ee9e-6e62-e58a699e19bb" />
+                                                                        <Set Property="Control.Opacity" Value="1" Target="31dee8e5-c3a9-ee9e-6e62-e58a699e19bb" />
+                                                                        <Set Property="Control.Opacity" Value="0" Target="2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" />
+                                                                        <Move To="4,48" Target="2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" />
+                                                                    </SharedPart.Customizations>
+                                                                </SharedPart>
+                                                            </ListItem.Content>
+                                                        </ListItem>
+                                                        <ListItem Id="f0bfef2b-28d4-9745-ace0-2d9c30d4724d">
+                                                            <ListItem.Content>
+                                                                <SharedPart Id="1d66842e-3fec-0349-3bf5-c0342b3a0404">
+                                                                    <SharedPart.Customizations>
+                                                                        <Set Property="Label.Text" Value="F" Target="31dee8e5-c3a9-ee9e-6e62-e58a699e19bb" />
+                                                                        <Set Property="Text.FontStyle" Value="Normal" Target="31dee8e5-c3a9-ee9e-6e62-e58a699e19bb" />
+                                                                        <Set Property="Control.Opacity" Value="1" Target="31dee8e5-c3a9-ee9e-6e62-e58a699e19bb" />
+                                                                        <Remove Target="2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" />
+                                                                    </SharedPart.Customizations>
+                                                                </SharedPart>
+                                                            </ListItem.Content>
+                                                        </ListItem>
+                                                        <ListItem Id="383f294f-0378-6f9e-2578-3a97da0e38b3">
+                                                            <ListItem.Content>
+                                                                <SharedPart Id="83e609c7-24ac-a266-a816-3269751cd6d8">
+                                                                    <SharedPart.Customizations>
+                                                                        <Set Property="Text.FontStyle" Value="Normal" Target="31dee8e5-c3a9-ee9e-6e62-e58a699e19bb" />
+                                                                        <Set Property="Control.Opacity" Value="1" Target="31dee8e5-c3a9-ee9e-6e62-e58a699e19bb" />
+                                                                        <Resize To="21,61" Target="15d35b2e-d0d5-c921-562a-b1a65a58813a" />
+                                                                        <Remove Target="2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" />
+                                                                    </SharedPart.Customizations>
+                                                                </SharedPart>
+                                                            </ListItem.Content>
+                                                        </ListItem>
+                                                    </List.Items>
+                                                </List>
+                                                <Icon Color="#FF3DB5E5" CatalogId="Greater Than" Id="a83dcc8c-6b4d-025d-1815-eee315c0ec96" Name="overview" Panel.Bounds="341,44,26{5,2147483647},26{5,2147483647}" />
+                                                <Line Thickness="2" RotationAngle="3.88578058618805E-16" Color="#FF3DB5E5" Background="#00FFFFFF" Id="7e158e15-7c8d-646a-f3d8-16275b04c39d" Name="avg line" Panel.Bounds="17,55,323,3">
+                                                    <Line.StartPoint>
+                                                        <Point X="-25" Y="55" Id="a4b8f3bb-e6b4-9397-fea5-131e5fd382e5" />
+                                                    </Line.StartPoint>
+                                                    <Line.Segments>
+                                                        <Segment Id="520f987a-bf48-8868-7408-fced1d0aed43">
+                                                            <Segment.EndPoint>
+                                                                <Point X="298" Y="55" Id="bb711ae0-4721-c354-f3b2-b6c1aa32152b" />
+                                                            </Segment.EndPoint>
+                                                        </Segment>
+                                                    </Line.Segments>
+                                                </Line>
+                                                <Label Text="100" Foreground="#FFFFFFFF" FontSize="11" FontStyle="Normal|Bold" Id="a8702943-48a0-ef84-b09a-a1569ad8605b" Panel.Bounds="24,18,8*,18*" />
+                                                <Polyline Thickness="3" Color="#FFAAAAAA" Background="#00FFFFFF" Opacity="0" Id="3ed0869c-7389-42bf-aba3-c562a5657721" Name="Line chart" Panel.Bounds="17,79,220,3">
+                                                    <Polyline.StartPoint>
+                                                        <Point X="1" Y="10" Id="8f41802f-f29a-e873-790a-861fdad64766" />
+                                                    </Polyline.StartPoint>
+                                                    <Polyline.Segments>
+                                                        <Segment Id="e5eed695-b5e0-5eab-fd32-a243537a8adf">
+                                                            <Segment.EndPoint>
+                                                                <Point X="58" Y="10" Id="b411d87b-a8c4-8188-14ff-fb1c824c6dba" />
+                                                            </Segment.EndPoint>
+                                                        </Segment>
+                                                        <Segment Id="9069683e-b717-77d1-f867-b4304103256d">
+                                                            <Segment.EndPoint>
+                                                                <Point X="113" Y="10" Id="49f31fb2-adca-15c2-0932-493fc6e43775" />
+                                                            </Segment.EndPoint>
+                                                        </Segment>
+                                                        <Segment Id="3638d3ab-d8b5-f05e-c24b-22cbb8076868">
+                                                            <Segment.EndPoint>
+                                                                <Point X="167" Y="10" Id="f759e617-d866-186e-b4a2-7b65e1c6334a" />
+                                                            </Segment.EndPoint>
+                                                        </Segment>
+                                                        <Segment Id="33ff9fec-f8a3-8a31-47ed-b6bb613cd5ab">
+                                                            <Segment.EndPoint>
+                                                                <Point X="221" Y="10" Id="5a899246-6385-d4b2-f8cf-6293a08e57a6" />
+                                                            </Segment.EndPoint>
+                                                        </Segment>
+                                                    </Polyline.Segments>
+                                                </Polyline>
+                                                <ContainerBox Color="#FF3DB5E5" Background="#FFE9F2F7" CornerRadius="9" Id="02ae6540-800e-659a-5ec2-acbb45c9f6f7" Name="avg Value" Panel.Bounds="267,44,74{5,2147483647},24{5,2147483647}">
+                                                    <ContainerBox.Content>
+                                                        <Container ClipToContainer="True" Id="4ded3134-c09c-8f19-42b2-4a385dc11b4c">
+                                                            <Container.Children>
+                                                                <Label Text="AVG. $45" Foreground="#FF3DB5E5" FontSize="16" FontFamily="Roboto Condensed" Id="0df65d71-d171-44b8-e480-cd9ebd59663d" Panel.Bounds="6,0,85*,18*" />
+                                                            </Container.Children>
+                                                        </Container>
+                                                    </ContainerBox.Content>
+                                                </ContainerBox>
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                    <ContainerBox.Click>
+                                        <CommandNavigate Screen="/iPhone5/Expense Overview.screen" Created="03/19/2015 18:39:55" Id="7c6dcdeb-54e1-2e97-504c-9713c0d050df">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Type="Slide" Duration="300" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </ContainerBox.Click>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Content.SceneApplied" Target="03e8aabe-cebf-32a5-8e53-77fdd24262a1">
+                            <Add.Item>
+                                <ConditionalCommand Id="dbe83231-1f7a-8ce9-380f-5c88b3e87162">
+                                    <ConditionalCommand.Command>
+                                        <CommandSwitchTo SceneId="a9f65645-c795-c539-f906-10d9a38d305a" Created="03/20/2015 15:35:28" Id="bef3ce9e-3cc8-2364-b1bc-0c65596ccc59" />
+                                    </ConditionalCommand.Command>
+                                    <ConditionalCommand.Condition>
+                                        <SceneCondition Scene="984e810d-13cd-7df9-1dab-694d4e909636" />
+                                    </ConditionalCommand.Condition>
+                                </ConditionalCommand>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4c8afac8-e845-8844-d017-10b7d44b7d69">
+                            <Add.Item>
+                                <Group GroupName="Group" Opacity="0" Id="b4aac878-22be-f189-d372-d9778d656cf0" Name="add" Panel.Bounds="293,563,0*,0*">
+                                    <Group.Children>
+                                        <Ellipse Thickness="0" Color="#FFFFFFFF" Background="#FF8D8D8D" Opacity="0.4" Id="bf4ab219-4f15-8031-d76e-7b0140bf4fe6" Panel.Bounds="1,3,70{5,2147483647},70{5,2147483647}" />
+                                        <Ellipse Thickness="0" Color="#FFFFFFFF" Background="#FF383838" Id="1af62267-c4ca-8ce1-fc81-de6d972cb2b6" Panel.Bounds="0,0,70{5,2147483647},70{5,2147483647}" />
+                                        <Icon Color="#FFE2E2E2" CatalogId="Plus" Id="10b055de-249c-53da-9aaf-b7782a7d1b8d" Panel.Bounds="24,24,22{5,2147483647},22{5,2147483647}" />
+                                    </Group.Children>
+                                    <Group.Click>
+                                        <CommandSwitchTo SceneId="a9f65645-c795-c539-f906-10d9a38d305a" Created="03/23/2015 15:52:19" Id="d5d200a8-d337-4dbb-76e8-687982d86021" />
+                                    </Group.Click>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4c8afac8-e845-8844-d017-10b7d44b7d69">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="3123ac9b-8dfb-f875-458f-47eab3a8fb89" Name="add" Panel.Bounds="311,653,0*,0*">
+                                    <Group.Children>
+                                        <Ellipse Thickness="0" Color="#FFFFFFFF" Background="#FF8D8D8D" Opacity="0.4" Id="d4225014-4745-a340-41d2-7429b6d672db" Panel.Bounds="1,22,52{5,2147483647},51{5,2147483647}" />
+                                        <Ellipse Thickness="0" Color="#FFFFFFFF" Background="#FF349C42" Id="d0c13a41-0a5d-92a1-494c-1872a3f7501c" Panel.Bounds="0,20,52{5,2147483647},51{5,2147483647}" />
+                                        <Icon Color="#FFE2E2E2" CatalogId="Plus" Id="01e6efb0-e14d-57a0-3730-0ab6256fab8f" Panel.Bounds="18,37,16{5,2147483647},16{5,2147483647}" />
+                                    </Group.Children>
+                                    <Group.Click>
+                                        <CommandSwitchTo SceneId="a9f65645-c795-c539-f906-10d9a38d305a" Created="03/23/2015 15:52:19" Id="062ab8b6-576e-0af5-0abb-37aea4b66367" />
+                                    </Group.Click>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Content.Background" Value="#FFE2E2E2" Target="03e8aabe-cebf-32a5-8e53-77fdd24262a1" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+                <KeyFrame Duration="1350" Id="0e2ad0a0-22a5-3b41-8b85-ad944b196ad6">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="4c8afac8-e845-8844-d017-10b7d44b7d69" StartTimeMilliseconds="1200" Duration="200">
+                            <Add.Item>
+                                <ContainerBox Background="#FF555555" Thickness="0" Opacity="0.8" Id="f823a9d0-1244-5061-f20f-c84c76949685" Panel.Bounds="33,225,303{5,2147483647},61{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="e34d51dc-bf25-3dfb-190b-d94a79b53924">
+                                            <Container.Children>
+                                                <Label Text="Swipe to edit or delete" Foreground="#FFFFFFFF" FontSize="18" FontFamily="Roboto" Id="db46c5da-d4bd-1fe0-7075-4b37610274d2" Panel.Bounds="70,18,5*{5,2147483647},5*{5,2147483647}" />
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Control.Opacity" Value="1" Target="3ed0869c-7389-42bf-aba3-c562a5657721" StartTimeMilliseconds="50" Duration="500" />
+                        <Set Property="Point.Y" Value="-25" Target="8f41802f-f29a-e873-790a-861fdad64766" StartTimeMilliseconds="50" />
+                        <Move To="23,29" Target="3ed0869c-7389-42bf-aba3-c562a5657721" StartTimeMilliseconds="50" Duration="500" />
+                        <Resize To="193,52" Target="3ed0869c-7389-42bf-aba3-c562a5657721" StartTimeMilliseconds="50" Duration="500" />
+                        <Set Property="Point.X" Value="7" Target="8f41802f-f29a-e873-790a-861fdad64766" StartTimeMilliseconds="50" />
+                        <Set Property="Point.Y" Value="-31" Target="b411d87b-a8c4-8188-14ff-fb1c824c6dba" StartTimeMilliseconds="50" />
+                        <Set Property="Point.X" Value="55" Target="b411d87b-a8c4-8188-14ff-fb1c824c6dba" StartTimeMilliseconds="50" />
+                        <Set Property="Point.X" Value="103" Target="49f31fb2-adca-15c2-0932-493fc6e43775" StartTimeMilliseconds="50" />
+                        <Set Property="Point.Y" Value="12" Target="49f31fb2-adca-15c2-0932-493fc6e43775" StartTimeMilliseconds="50" />
+                        <Set Property="Point.X" Value="152" Target="f759e617-d866-186e-b4a2-7b65e1c6334a" StartTimeMilliseconds="50" />
+                        <Set Property="Point.Y" Value="5" Target="f759e617-d866-186e-b4a2-7b65e1c6334a" StartTimeMilliseconds="50" />
+                        <Set Property="Point.X" Value="200" Target="5a899246-6385-d4b2-f8cf-6293a08e57a6" StartTimeMilliseconds="50" />
+                        <Set Property="Point.Y" Value="-40" Target="5a899246-6385-d4b2-f8cf-6293a08e57a6" StartTimeMilliseconds="50" />
+                        <Set Property="Text.Foreground" Value="#FFAAAAAA" Target="a8702943-48a0-ef84-b09a-a1569ad8605b" StartTimeMilliseconds="50" />
+                        <Set Property="Text.Foreground" Value="#FFAAAAAA" Target="e0cdf4a6-feea-bef3-d636-d147a05220fc.fd400024-2019-a41e-52fc-7cbf45053f2c" StartTimeMilliseconds="50" />
+                        <Move To="29,19" Target="a8702943-48a0-ef84-b09a-a1569ad8605b" StartTimeMilliseconds="50" />
+                        <Set Property="Text.FontStyle" Value="Normal" Target="a8702943-48a0-ef84-b09a-a1569ad8605b" StartTimeMilliseconds="50" />
+                        <Set Property="Text.FontStyle" Value="Normal" Target="e0cdf4a6-feea-bef3-d636-d147a05220fc.fd400024-2019-a41e-52fc-7cbf45053f2c" StartTimeMilliseconds="50" />
+                        <Set Property="Text.FontFamily" Value="Roboto Condensed" Target="a8702943-48a0-ef84-b09a-a1569ad8605b" StartTimeMilliseconds="50" />
+                        <Set Property="Text.FontFamily" Value="Roboto Condensed" Target="e0cdf4a6-feea-bef3-d636-d147a05220fc.fd400024-2019-a41e-52fc-7cbf45053f2c" StartTimeMilliseconds="50" />
+                        <Set Property="Control.Opacity" Value="1" Target="e0cdf4a6-feea-bef3-d636-d147a05220fc.2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" StartTimeMilliseconds="400" Duration="400" />
+                        <Set Property="Control.Opacity" Value="1" Target="8d80ebc8-5fcc-8328-881c-c495babe9d91.2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" StartTimeMilliseconds="400" Duration="400" />
+                        <Set Property="Control.Opacity" Value="1" Target="09902b87-04a4-ca49-0463-c9a342a6e99d.2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" StartTimeMilliseconds="400" Duration="400" />
+                        <Set Property="Control.Opacity" Value="1" Target="ed26c466-06e0-2311-5457-9d59d63c611c.2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" StartTimeMilliseconds="400" Duration="400" />
+                        <Set Property="Control.Opacity" Value="1" Target="8fe09f03-120a-7381-67ec-4bb03e367c56.2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" StartTimeMilliseconds="400" Duration="400" />
+                        <Move To="4,12" Target="8d80ebc8-5fcc-8328-881c-c495babe9d91.2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" StartTimeMilliseconds="50" />
+                        <Move Top="True" Target="65ab4d55-84f7-db36-e75b-1cc68dfc9ec9" StartTimeMilliseconds="50" />
+                        <Move To="4,53" Target="09902b87-04a4-ca49-0463-c9a342a6e99d.2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" StartTimeMilliseconds="50" />
+                        <Move To="4,46" Target="ed26c466-06e0-2311-5457-9d59d63c611c.2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" StartTimeMilliseconds="50" />
+                        <Move To="4,5" Target="8fe09f03-120a-7381-67ec-4bb03e367c56.2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" StartTimeMilliseconds="50" />
+                        <Set Property="Shape.Color" Value="#FFAE0000" Target="8fe09f03-120a-7381-67ec-4bb03e367c56.2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" StartTimeMilliseconds="50" />
+                        <Set Property="Shape.Color" Value="#FFAE0000" Target="8d80ebc8-5fcc-8328-881c-c495babe9d91.2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" StartTimeMilliseconds="50" />
+                        <Set Property="Shape.Color" Value="#FFAE0000" Target="e0cdf4a6-feea-bef3-d636-d147a05220fc.2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" StartTimeMilliseconds="50" />
+                        <Set Property="Shape.Background" Value="#FFAE0000" Target="e0cdf4a6-feea-bef3-d636-d147a05220fc.2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" StartTimeMilliseconds="50" />
+                        <Set Property="Shape.Background" Value="#FFAE0000" Target="8d80ebc8-5fcc-8328-881c-c495babe9d91.2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" StartTimeMilliseconds="50" />
+                        <Set Property="Shape.Background" Value="#FFAE0000" Target="8fe09f03-120a-7381-67ec-4bb03e367c56.2c413f7d-6bb6-a1f5-b4b9-fc334e9b567c" StartTimeMilliseconds="50" />
+                        <Move To="311,563" Target="3123ac9b-8dfb-f875-458f-47eab3a8fb89" StartTimeMilliseconds="750" Duration="250" />
+                        <Set Property="Shape.Background" Value="#FF1C1C1C" Target="d0c13a41-0a5d-92a1-494c-1872a3f7501c" StartTimeMilliseconds="1250" Duration="150" />
+                        <Remove Target="b4aac878-22be-f189-d372-d9778d656cf0" StartTimeMilliseconds="50" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+                <KeyFrame Duration="1450" Id="382c6677-04a9-e341-2b2b-806c229ce3d3">
+                    <KeyFrame.Operations>
+                        <Remove Target="f823a9d0-1244-5061-f20f-c84c76949685" StartTimeMilliseconds="2600" Duration="250" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped add" StateGroup="1a9ae2bf-8452-4c18-91c4-d6959c1deb69" ParentScene="1a9ae2bf-8452-4c18-91c4-d6959c1deb69" Created="08/22/2013 14:35:44" Id="a9f65645-c795-c539-f906-10d9a38d305a">
+            <Scene.KeyFrames>
+                <KeyFrame ResizedGroups="e0620b26-05e0-a13b-a3cc-5e7d95f812eb" Duration="50" Id="85680c6b-7e8d-db1b-d018-5bf440815272">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="4c8afac8-e845-8844-d017-10b7d44b7d69">
+                            <Add.Item>
+                                <ContainerBox Color="#FF555555" Thickness="3" CornerRadius="7" Id="f5d7125a-0746-0ccf-012b-fad37cd5c42c" Name="Editor" Panel.Bounds="13,654,349{5,2147483647},598{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="81ada45a-04c0-f7b0-227f-c1912ec8a178">
+                                            <Container.Children>
+                                                <List Direction="Vertical" Thickness="0" Id="b1ecad00-2e6a-d34b-ac24-498e609bbccb" Panel.Bounds="13,274,309{5,2147483647},220{5,2147483647}">
+                                                    <List.Template>
+                                                        <Template Id="8d814d2e-3ab3-746a-dfcf-dfc27b132769">
+                                                            <Template.Content>
+                                                                <ListItemContent Thickness="0" Id="7b24106c-41f8-9050-00e2-812825d1d95c" Panel.Bounds="0,0,306*,55" Panel.Layout="Stretch">
+                                                                    <ListItemContent.Content>
+                                                                        <Container ClipToContainer="True" Id="dcd807ac-7028-27f1-9c0d-fb5bdddd6c34">
+                                                                            <Container.Children>
+                                                                                <Button Text="1" Background="#61E2E2E2" BorderColor="#FFE2E2E2" BorderThickness="0" Foreground="#FF555555" FontSize="28" Id="ebd83698-573f-12e3-f18d-16ad19c8bd3d" Panel.Bounds="3,2,93{5,2147483647},45{5,2147483647}" />
+                                                                                <Button Text="1" Background="#61E2E2E2" BorderColor="#FFE2E2E2" BorderThickness="0" Foreground="#FF555555" FontSize="28" Id="2dec448f-012c-a5e4-ddcd-ca9d7b46816f" Panel.Bounds="106,2,93{5,2147483647},45{5,2147483647}" />
+                                                                                <Button Text="1" Background="#61E2E2E2" BorderColor="#FFE2E2E2" BorderThickness="0" Foreground="#FF555555" FontSize="28" Id="011ade63-af18-3628-4705-e3f71ef92410" Panel.Bounds="208,2,93{5,2147483647},45{5,2147483647}" />
+                                                                            </Container.Children>
+                                                                        </Container>
+                                                                    </ListItemContent.Content>
+                                                                </ListItemContent>
+                                                            </Template.Content>
+                                                        </Template>
+                                                    </List.Template>
+                                                    <List.Items>
+                                                        <ListItem Id="303ab8a9-2eae-e278-968e-450f4309d448">
+                                                            <ListItem.Content>
+                                                                <SharedPart Id="30527be8-99da-a5aa-dec6-903276cca9e3">
+                                                                    <SharedPart.Customizations>
+                                                                        <Set Property="Button.Text" Value="2" Target="2dec448f-012c-a5e4-ddcd-ca9d7b46816f" />
+                                                                        <Set Property="Button.Text" Value="3" Target="011ade63-af18-3628-4705-e3f71ef92410" />
+                                                                    </SharedPart.Customizations>
+                                                                </SharedPart>
+                                                            </ListItem.Content>
+                                                        </ListItem>
+                                                        <ListItem Id="fc275c02-e075-82a7-cfd4-76dbaf899bf9">
+                                                            <ListItem.Content>
+                                                                <SharedPart Id="55af74c9-7c29-d696-a2e5-f4a031e7dd35">
+                                                                    <SharedPart.Customizations>
+                                                                        <Set Property="Button.Text" Value="4" Target="ebd83698-573f-12e3-f18d-16ad19c8bd3d" />
+                                                                        <Set Property="Button.Text" Value="5" Target="2dec448f-012c-a5e4-ddcd-ca9d7b46816f" />
+                                                                        <Set Property="Button.Text" Value="6" Target="011ade63-af18-3628-4705-e3f71ef92410" />
+                                                                    </SharedPart.Customizations>
+                                                                </SharedPart>
+                                                            </ListItem.Content>
+                                                        </ListItem>
+                                                        <ListItem Id="38406ce2-6f97-4dff-2e89-e68f62b345c1">
+                                                            <ListItem.Content>
+                                                                <SharedPart Id="b840d46a-7e5e-bdb1-0520-d75e40835bae">
+                                                                    <SharedPart.Customizations>
+                                                                        <Set Property="Button.Text" Value="7" Target="ebd83698-573f-12e3-f18d-16ad19c8bd3d" />
+                                                                        <Set Property="Button.Text" Value="8" Target="2dec448f-012c-a5e4-ddcd-ca9d7b46816f" />
+                                                                        <Set Property="Button.Text" Value="9" Target="011ade63-af18-3628-4705-e3f71ef92410" />
+                                                                    </SharedPart.Customizations>
+                                                                </SharedPart>
+                                                            </ListItem.Content>
+                                                        </ListItem>
+                                                        <ListItem Id="59903f5b-4f49-53a5-faba-c2461fe61615">
+                                                            <ListItem.Content>
+                                                                <SharedPart Id="34d372c7-ac98-8c19-5c81-1f5f04f721c6">
+                                                                    <SharedPart.Customizations>
+                                                                        <Set Property="Button.Text" Value="cents" Target="ebd83698-573f-12e3-f18d-16ad19c8bd3d" />
+                                                                        <Set Property="Text.FontSize" Value="24" Target="ebd83698-573f-12e3-f18d-16ad19c8bd3d" />
+                                                                        <Set Property="Button.Text" Value="0" Target="2dec448f-012c-a5e4-ddcd-ca9d7b46816f" />
+                                                                        <Set Property="Button.Text" Value="" Target="011ade63-af18-3628-4705-e3f71ef92410" />
+                                                                        <Add Property="Panel.Children" Target="dcd807ac-7028-27f1-9c0d-fb5bdddd6c34">
+                                                                            <Add.Item>
+                                                                                <Icon CatalogId="BackSpace" Id="e3d8055c-0288-26ea-97df-e8e1807c66f2" Panel.Bounds="238,7,32{5,2147483647},32{5,2147483647}" />
+                                                                            </Add.Item>
+                                                                        </Add>
+                                                                        <Resize To="306,52" Target="7b24106c-41f8-9050-00e2-812825d1d95c" />
+                                                                    </SharedPart.Customizations>
+                                                                </SharedPart>
+                                                            </ListItem.Content>
+                                                        </ListItem>
+                                                    </List.Items>
+                                                </List>
+                                                <i:Title Text="CATEGORIES" Align="Center" FontSize="12" Opacity="0.4" Id="b0cf066b-239b-414c-9be7-4c43f34bfc85" Panel.Bounds="21,87,296{5,2147483647},16{5,2147483647}" />
+                                                <i:PageControlContent Id="8a1ddde5-334b-900e-84af-57aac3958a3e" CompositeControl.Key="cfce11c1-5834-f7b1-e010-5e0dd662a21a" Panel.Bounds="5,107,329{5,2147483647},98{5,2147483647}">
+                                                    <i:PageControlContent.Items>
+                                                        <i2:ContainerListItem Text="Page 1 Content" IsSelected="True" Id="49cac253-7bdb-e592-72e2-328ca00919f4" i2:ContainerListControl.ItemKey="13208ae9-996a-66da-b669-f475898ca0b2">
+                                                            <i2:ContainerListItem.Content>
+                                                                <Container ClipToContainer="True" Id="cf92daba-a445-1a7f-7dc1-eb1f18d0c182" Panel.Bounds="0,0,320*,100*">
+                                                                    <Container.Children>
+                                                                        <List Direction="Vertical" Thickness="0" Id="16b15f6d-7251-00aa-4d84-4d981872b37c" Name="icons pg1" Panel.Bounds="13,0,303{5,2147483647},97{5,2147483647}">
+                                                                            <List.Template>
+                                                                                <Template Id="30ab110c-5e71-57bf-90ba-c73592b5d57f">
+                                                                                    <Template.Content>
+                                                                                        <ListItemContent Thickness="0" Padding="3,3,3,0" Id="c612d14c-4e90-1d95-190f-33eafc4f3b52" Panel.Bounds="0,0,300*,48" Panel.Layout="Stretch">
+                                                                                            <ListItemContent.Content>
+                                                                                                <Container ClipToContainer="True" Id="f9f43bed-ea06-2d75-e32e-ee491a4599f4">
+                                                                                                    <Container.Children>
+                                                                                                        <Icon CatalogId="Pin" Opacity="0.6" Id="e4b7b212-9701-9b87-6cca-55a64e76c2e7" Name="Coffee" Panel.Bounds="6,3,32{5,2147483647},32{5,2147483647}" />
+                                                                                                        <Icon CatalogId="Pin" Opacity="0.6" Id="620b6ca0-c9a9-5caf-72e9-3e3a7d79d437" Panel.Bounds="69,3,32{5,2147483647},32{5,2147483647}" />
+                                                                                                        <Icon CatalogId="Pin" Opacity="0.6" Id="46f700c3-eb25-5b48-5cd6-c303d162112b" Panel.Bounds="132,3,32{5,2147483647},32{5,2147483647}" />
+                                                                                                        <Icon CatalogId="Pin" Opacity="0.6" Id="63de1592-d7ae-c3bc-a82c-ac116babd0ad" Panel.Bounds="195,3,32{5,2147483647},32{5,2147483647}" />
+                                                                                                        <Icon CatalogId="Pin" Opacity="0.6" Id="7b09a28f-eaaf-b450-11fc-51b4b3bc3d54" Panel.Bounds="258,3,32{5,2147483647},32{5,2147483647}" />
+                                                                                                    </Container.Children>
+                                                                                                </Container>
+                                                                                            </ListItemContent.Content>
+                                                                                        </ListItemContent>
+                                                                                    </Template.Content>
+                                                                                </Template>
+                                                                            </List.Template>
+                                                                            <List.Items>
+                                                                                <ListItem Id="2604787f-16b2-ae2f-c699-a87dc20dff37">
+                                                                                    <ListItem.Content>
+                                                                                        <SharedPart Id="c1d67905-3c65-9f1e-e549-59d9a0b89d1b">
+                                                                                            <SharedPart.Customizations>
+                                                                                                <Add Property="Panel.Children" Before="e4b7b212-9701-9b87-6cca-55a64e76c2e7" Target="f9f43bed-ea06-2d75-e32e-ee491a4599f4">
+                                                                                                    <Add.Item>
+                                                                                                        <Rectangle CornerRadius="3" Color="#3A3DB5E5" Id="42357a8c-a7fc-24e8-fb68-59684f00b548" Panel.Bounds="66,2,38{5,2147483647},40{5,2147483647}" />
+                                                                                                    </Add.Item>
+                                                                                                </Add>
+                                                                                                <Add Property="Panel.Children" Before="e4b7b212-9701-9b87-6cca-55a64e76c2e7" Target="f9f43bed-ea06-2d75-e32e-ee491a4599f4">
+                                                                                                    <Add.Item>
+                                                                                                        <Rectangle CornerRadius="3" Color="#3A3DB5E5" Id="1270bb03-d4d0-cfc2-7e34-e9e39af47622" Panel.Bounds="1,2,38{5,2147483647},40{5,2147483647}" />
+                                                                                                    </Add.Item>
+                                                                                                </Add>
+                                                                                                <Add Property="Control.Click" Target="e4b7b212-9701-9b87-6cca-55a64e76c2e7">
+                                                                                                    <Add.Item>
+                                                                                                        <CommandNext SceneId="49efd984-be1f-b45d-b191-fb728cd0d1a3" AutoRevertEvent="Control.Click" Created="08/22/2013 17:33:58" Id="730524a8-e9b3-4ed3-9bf2-#bd0c9b5676bd" />
+                                                                                                    </Add.Item>
+                                                                                                </Add>
+                                                                                                <Add Property="Control.Click" Target="620b6ca0-c9a9-5caf-72e9-3e3a7d79d437">
+                                                                                                    <Add.Item>
+                                                                                                        <CommandNext SceneId="1f2ee19f-7cd1-117c-57f8-ed3cb9667e34" AutoRevertEvent="Control.Click" Created="08/23/2013 16:24:54" Id="e6e3b5c6-b29a-f8e0-5089-#16c9f6bf4f53" />
+                                                                                                    </Add.Item>
+                                                                                                </Add>
+                                                                                                <Set Property="Icon.CatalogId" Value="Coffee" Target="e4b7b212-9701-9b87-6cca-55a64e76c2e7" />
+                                                                                                <Set Property="Icon.CatalogId" Value="Shopping Bag" Target="620b6ca0-c9a9-5caf-72e9-3e3a7d79d437" />
+                                                                                                <Set Property="Icon.CatalogId" Value="Book Stack" Target="46f700c3-eb25-5b48-5cd6-c303d162112b" />
+                                                                                                <Set Property="Icon.CatalogId" Value="Ticket" Target="63de1592-d7ae-c3bc-a82c-ac116babd0ad" />
+                                                                                                <Set Property="Icon.CatalogId" Value="fa-truck" Target="7b09a28f-eaaf-b450-11fc-51b4b3bc3d54" />
+                                                                                                <Set Property="Icon.Color" Value="#FF735D3E" Target="e4b7b212-9701-9b87-6cca-55a64e76c2e7" />
+                                                                                                <Set Property="Icon.Color" Value="#FF725792" Target="620b6ca0-c9a9-5caf-72e9-3e3a7d79d437" />
+                                                                                                <Set Property="Icon.Color" Value="#FF349C42" Target="46f700c3-eb25-5b48-5cd6-c303d162112b" />
+                                                                                                <Set Property="Icon.Color" Value="#FFEDC50C" Target="63de1592-d7ae-c3bc-a82c-ac116babd0ad" />
+                                                                                                <Set Property="Icon.Color" Value="#FFCB6009" Target="7b09a28f-eaaf-b450-11fc-51b4b3bc3d54" />
+                                                                                            </SharedPart.Customizations>
+                                                                                        </SharedPart>
+                                                                                    </ListItem.Content>
+                                                                                </ListItem>
+                                                                                <ListItem Id="99f8789e-5d11-9afb-4491-d4f845a49116">
+                                                                                    <ListItem.Content>
+                                                                                        <SharedPart Id="74cafa55-1931-9223-ab48-71a885e14bee">
+                                                                                            <SharedPart.Customizations>
+                                                                                                <Set Property="Icon.CatalogId" Value="Club" Target="e4b7b212-9701-9b87-6cca-55a64e76c2e7" />
+                                                                                                <Set Property="Icon.CatalogId" Value="Airplane" Target="620b6ca0-c9a9-5caf-72e9-3e3a7d79d437" />
+                                                                                                <Set Property="Icon.CatalogId" Value="Cell Bars" Target="46f700c3-eb25-5b48-5cd6-c303d162112b" />
+                                                                                                <Set Property="Icon.CatalogId" Value="Featured" Target="63de1592-d7ae-c3bc-a82c-ac116babd0ad" />
+                                                                                                <Set Property="Icon.CatalogId" Value="Home" Target="7b09a28f-eaaf-b450-11fc-51b4b3bc3d54" />
+                                                                                                <Set Property="Icon.Color" Value="#FF4281D0" Target="620b6ca0-c9a9-5caf-72e9-3e3a7d79d437" />
+                                                                                                <Set Property="Icon.Color" Value="#FF3A9EB8" Target="46f700c3-eb25-5b48-5cd6-c303d162112b" />
+                                                                                                <Set Property="Icon.Color" Value="#FFAE0000" Target="e4b7b212-9701-9b87-6cca-55a64e76c2e7" />
+                                                                                                <Set Property="Icon.Color" Value="#FF84312F" Target="63de1592-d7ae-c3bc-a82c-ac116babd0ad" />
+                                                                                                <Set Property="Icon.Color" Value="#FF1C1C1C" Target="7b09a28f-eaaf-b450-11fc-51b4b3bc3d54" />
+                                                                                            </SharedPart.Customizations>
+                                                                                        </SharedPart>
+                                                                                    </ListItem.Content>
+                                                                                </ListItem>
+                                                                            </List.Items>
+                                                                        </List>
+                                                                    </Container.Children>
+                                                                </Container>
+                                                            </i2:ContainerListItem.Content>
+                                                        </i2:ContainerListItem>
+                                                        <i2:ContainerListItem Text="Page 2 Content" Id="326ab70b-926c-b4e6-fabd-397d982538d3" i2:ContainerListControl.ItemKey="9efb01ca-f2f3-3c42-f6a7-9c6de0e1c5b7">
+                                                            <i2:ContainerListItem.Content>
+                                                                <Container ClipToContainer="True" Id="c4fd7e91-8b58-b7e7-b66e-6562e24a35c8">
+                                                                    <Container.Children>
+                                                                        <List Direction="Vertical" Thickness="0" Id="2806bf58-5fb5-fec3-1c34-1ebc08b1a0bb" Name="icons pg 2" Panel.Bounds="13,0,307{5,2147483647},98{5,2147483647}">
+                                                                            <List.Template>
+                                                                                <Template Id="08ded93a-4876-7b1d-3dd7-adc1e8b2d271">
+                                                                                    <Template.Content>
+                                                                                        <ListItemContent Thickness="0" Id="674a4974-b0da-341c-c4dd-acea6d4a0390" Panel.Bounds="0,0,300*,48" Panel.Layout="Stretch">
+                                                                                            <ListItemContent.Content>
+                                                                                                <Container ClipToContainer="True" Id="1acdaf30-5f43-fd2f-0db9-badd617d0d1e">
+                                                                                                    <Container.Children>
+                                                                                                        <Icon CatalogId="Image" Opacity="0.28" Id="25166692-01fa-a01f-b974-363e763ed680" Name="Stage" Panel.Bounds="6,3,32{5,2147483647},32{5,2147483647}" />
+                                                                                                        <Icon CatalogId="Image" Opacity="0.28" Id="40d136b8-9641-0781-a553-282384cbb0bc" Panel.Bounds="69,3,32{5,2147483647},32{5,2147483647}" />
+                                                                                                        <Icon CatalogId="Image" Opacity="0.28" Id="6442b66b-5bca-b993-6118-baf6fd381144" Panel.Bounds="132,3,32{5,2147483647},32{5,2147483647}" />
+                                                                                                        <Icon CatalogId="Image" Opacity="0.28" Id="73915224-ac6c-0076-33fa-6fafe97d037a" Panel.Bounds="195,3,32{5,2147483647},32{5,2147483647}" />
+                                                                                                        <Icon CatalogId="Image" Opacity="0.28" Id="8e990a59-ff18-7a4f-68b6-697634775f77" Panel.Bounds="258,3,32{5,2147483647},32{5,2147483647}" />
+                                                                                                    </Container.Children>
+                                                                                                </Container>
+                                                                                            </ListItemContent.Content>
+                                                                                        </ListItemContent>
+                                                                                    </Template.Content>
+                                                                                </Template>
+                                                                            </List.Template>
+                                                                            <List.Items>
+                                                                                <ListItem Id="e4eb4129-4cb6-c54d-efe4-5b861adab7e9" Panel.Bounds="0,0,303*,48*">
+                                                                                    <ListItem.Content>
+                                                                                        <SharedPart Id="cc2dfe9e-7b7b-6ce5-e4fb-e75b1c76c971" Panel.Bounds="0,0,303*,48*" />
+                                                                                    </ListItem.Content>
+                                                                                </ListItem>
+                                                                                <ListItem Id="09c5b357-81d2-8208-e03d-f1ed3f221d50" Panel.Bounds="0,0,303*,48*">
+                                                                                    <ListItem.Content>
+                                                                                        <SharedPart Id="7a71404f-78e2-5039-053d-11291531c4e0" Panel.Bounds="0,0,303*,48*" />
+                                                                                    </ListItem.Content>
+                                                                                </ListItem>
+                                                                            </List.Items>
+                                                                        </List>
+                                                                    </Container.Children>
+                                                                </Container>
+                                                            </i2:ContainerListItem.Content>
+                                                        </i2:ContainerListItem>
+                                                    </i:PageControlContent.Items>
+                                                </i:PageControlContent>
+                                                <i:PageControlButtons FontStyle="" Id="92d3df46-9861-1943-4867-3be612845c85" CompositeControl.Key="cfce11c1-5834-f7b1-e010-5e0dd662a21a" Panel.Bounds="145,212,48*,16*">
+                                                    <i:PageControlButtons.Items>
+                                                        <i:PageControlItem Text="Page 1" IsSelected="True" Id="f205fb5a-ef7d-104f-5103-ad89e5fd023f" i2:ContainerListControl.ItemKey="13208ae9-996a-66da-b669-f475898ca0b2" Panel.Bounds="0,0,16*,16*" />
+                                                        <i:PageControlItem Text="Page 2" Id="62e72106-5d82-3979-8309-70abb8ae6074" i2:ContainerListControl.ItemKey="9efb01ca-f2f3-3c42-f6a7-9c6de0e1c5b7" Panel.Bounds="0,0,16*,16*" />
+                                                    </i:PageControlButtons.Items>
+                                                </i:PageControlButtons>
+                                                <TextBox Text="$" Border="#FF1C1C1C" Foreground="#FF383838" FontSize="24" FontFamily="Georgia" Id="b85858f3-4311-c01b-8641-e5c6544b34b5" Panel.Bounds="23,30,192{5,2147483647},5*{5,2147483647}" />
+                                                <Button Text="ADD" Background="#61E2E2E2" BorderColor="#FFC6C6C6" BorderThickness="0" Foreground="#FF555555" FontSize="20" Opacity="0.4" Id="d8575b05-a632-92b0-8dd0-4336a9a2bf38" Panel.Bounds="21,499,296{5,2147483647},55{5,2147483647}" />
+                                                <Group GroupName="Group" Id="e0620b26-05e0-a13b-a3cc-5e7d95f812eb" Panel.Bounds="19,237,0*,0*">
+                                                    <Group.Children>
+                                                        <Label Text="include store name, destination etc." FontStyle="Normal|Italic|Bold" Opacity="0.2" Id="f23cd7d6-06a6-ada8-30c5-edfd3ffd4e35" Panel.Bounds="11,5,0*,0*" />
+                                                        <TextBox Border="#FFE2E2E2" Background="#00FFFFFF" FontSize="16" Id="526ab322-c15e-e88e-4279-18ceecc7b037" Panel.Bounds="0,0,296,39*" />
+                                                    </Group.Children>
+                                                </Group>
+                                                <Button Text="CANCEL" BorderColor="#FFE2E2E2" Foreground="#FF8D8D8D" Id="37fa2a4b-813e-ab3d-2b70-8150934ef853" Panel.Bounds="225,30,93{5,2147483647},34{5,2147483647}">
+                                                    <Button.Click>
+                                                        <CommandSwitchTo SceneId="1a9ae2bf-8452-4c18-91c4-d6959c1deb69" Created="08/23/2013 15:51:06" Id="8c6f7d85-df54-8cb0-c4f7-7cd9f869b263" />
+                                                    </Button.Click>
+                                                </Button>
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+                <KeyFrame Duration="400" Id="ceb9cc98-8ded-7031-dab0-553648478c0d">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="74cafa55-1931-9223-ab48-71a885e14bee.f9f43bed-ea06-2d75-e32e-ee491a4599f4" StartTimeMilliseconds="50">
+                            <Add.Item>
+                                <HotSpot Thickness="1" IsClosed="True" Opacity="0.25" Id="1695ebf1-5ebb-4069-6d9b-a229c20d790b" Name="catg. n/a" Panel.Bounds="0,0,294,38">
+                                    <HotSpot.StartPoint>
+                                        <Point Id="fb850376-7c6c-4cfb-1d54-737854c48619" />
+                                    </HotSpot.StartPoint>
+                                    <HotSpot.Segments>
+                                        <Segment Id="b3644bef-d058-e5fa-198c-2240b0d485a3">
+                                            <Segment.EndPoint>
+                                                <Point Y="100" Id="78020182-20e2-22be-b696-1d8708049613" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="07ee9457-885b-ebf1-a079-669acb58a8a2">
+                                            <Segment.EndPoint>
+                                                <Point X="100" Y="100" Id="7c31bf52-165c-ef8e-0349-3d772bc78a49" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="21f1ced5-d447-55ad-5b36-e4f4b4102a3f">
+                                            <Segment.EndPoint>
+                                                <Point X="100" Id="981e9508-56c7-45e1-003b-2c027b7c5ab4" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="eb5e9a63-985d-d740-6d5e-544601ecf8b6">
+                                            <Segment.EndPoint>
+                                                <Point Id="c3dcd523-4a00-fc0b-de49-e05efb442286" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </HotSpot.Segments>
+                                </HotSpot>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="81ada45a-04c0-f7b0-227f-c1912ec8a178" StartTimeMilliseconds="50">
+                            <Add.Item>
+                                <HotSpot Thickness="1" IsClosed="True" Opacity="0.25" Id="d9adf0d2-9d7b-af80-6a0f-94079bfdbdec" Name="numberpad n/a" Panel.Bounds="17,271,298,212">
+                                    <HotSpot.StartPoint>
+                                        <Point Id="e1cd9fe1-6793-013f-e104-2967a5fa4b10" />
+                                    </HotSpot.StartPoint>
+                                    <HotSpot.Segments>
+                                        <Segment Id="41fd44e3-33ee-1238-8944-4e3c90ae8027">
+                                            <Segment.EndPoint>
+                                                <Point Y="100" Id="6680bb1e-81fe-857a-df1b-985a79b2598c" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="61c233ed-11c9-28ac-93a6-47044b70fbc2">
+                                            <Segment.EndPoint>
+                                                <Point X="100" Y="100" Id="04c7ef20-f40a-7d94-4d88-708a0598f121" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="643b4225-37be-0a3a-b612-9dda64d60179">
+                                            <Segment.EndPoint>
+                                                <Point X="100" Id="b67aee09-2c50-b843-57fa-01d5a2022fc3" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="69c4e896-7a68-e235-8032-bd4160fcd0dc">
+                                            <Segment.EndPoint>
+                                                <Point Id="4fff928a-5e07-ef18-d51b-c52bf6b3eefa" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </HotSpot.Segments>
+                                </HotSpot>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c1d67905-3c65-9f1e-e549-59d9a0b89d1b.f9f43bed-ea06-2d75-e32e-ee491a4599f4" StartTimeMilliseconds="50">
+                            <Add.Item>
+                                <HotSpot Thickness="1" IsClosed="True" Opacity="0.25" Id="86fb102a-441a-6ff6-09cf-229156b2e808" Name="catg. n/a" Panel.Bounds="125,2,166,38">
+                                    <HotSpot.StartPoint>
+                                        <Point Id="e4b6194d-78fc-9be9-5a7f-38dbccdd02d0" />
+                                    </HotSpot.StartPoint>
+                                    <HotSpot.Segments>
+                                        <Segment Id="bc60337a-7d2e-4130-e679-1a512bfe181a">
+                                            <Segment.EndPoint>
+                                                <Point Y="100" Id="b85ef4a9-cc3c-4df6-e766-854bfc175e9f" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="8ab6c1ed-53b5-49e0-52f8-593821bbdf4d">
+                                            <Segment.EndPoint>
+                                                <Point X="100" Y="100" Id="705b1c95-eece-d17b-aa25-56b7f16e7a74" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="ae6f555a-8674-a0f5-e21e-e9c13a4333ff">
+                                            <Segment.EndPoint>
+                                                <Point X="100" Id="5d08ad26-c6be-4855-9222-2045da9c4031" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="eaf86623-b85c-9df9-aa70-6728a522f140">
+                                            <Segment.EndPoint>
+                                                <Point Id="52741964-932d-69e8-0fe0-3bcdc84bde86" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </HotSpot.Segments>
+                                </HotSpot>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c4fd7e91-8b58-b7e7-b66e-6562e24a35c8" StartTimeMilliseconds="50">
+                            <Add.Item>
+                                <HotSpot Thickness="1" IsClosed="True" Opacity="0.25" Id="7c4b20f4-5c60-eac1-0961-4ae2972020e0" Name="not defined" Panel.Bounds="16,3,300,87">
+                                    <HotSpot.StartPoint>
+                                        <Point Id="8104e71e-4aa5-d0b3-f3b9-8255b6e0ff2a" />
+                                    </HotSpot.StartPoint>
+                                    <HotSpot.Segments>
+                                        <Segment Id="3afdc517-8c34-9132-2862-577395c7460a">
+                                            <Segment.EndPoint>
+                                                <Point Y="100" Id="62092e84-986d-5712-05c0-cdaa50966310" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="60511683-483f-dd71-9fb6-ad76fe7240b6">
+                                            <Segment.EndPoint>
+                                                <Point X="100" Y="100" Id="f722b526-564d-4083-277c-040b85688408" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="4af2e88c-356d-7ca3-da5d-eeefac6766ae">
+                                            <Segment.EndPoint>
+                                                <Point X="100" Id="5ed6bed8-ffc5-2c76-db56-0093188008ad" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="55710ed8-2588-932f-cca7-1b0ce6f5380f">
+                                            <Segment.EndPoint>
+                                                <Point Id="9a5cd107-8696-c408-9f2c-9794b1d43e68" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </HotSpot.Segments>
+                                </HotSpot>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4c8afac8-e845-8844-d017-10b7d44b7d69" StartTimeMilliseconds="50" Duration="350">
+                            <Add.Item>
+                                <Rectangle Background="#FF8D8D8D" Opacity="0.8" Id="13531d6f-69c9-0f9c-67e3-ed4e7dad9f39" Name="overlay" Panel.Bounds="-1,0,379{5,2147483647},647{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Set Property="List.Background" Value="#9BFFFFFF" Target="b1ecad00-2e6a-d34b-ac24-498e609bbccb" StartTimeMilliseconds="50" />
+                        <Set Property="List.Background" Value="Transparent" Target="16b15f6d-7251-00aa-4d84-4d981872b37c" StartTimeMilliseconds="50" />
+                        <Set Property="Button.Text" Value="Add Expense" Target="d8575b05-a632-92b0-8dd0-4336a9a2bf38" StartTimeMilliseconds="50" />
+                        <Move To="12,26" Top="True" Target="f5d7125a-0746-0ccf-012b-fad37cd5c42c" StartTimeMilliseconds="50" Duration="400" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped Coffee" StateGroup="a9f65645-c795-c539-f906-10d9a38d305a" ParentScene="a9f65645-c795-c539-f906-10d9a38d305a" Created="08/22/2013 17:33:58" Id="49efd984-be1f-b45d-b191-fb728cd0d1a3">
+            <Scene.KeyFrames>
+                <KeyFrame Id="d1c1d482-39e9-fa92-c95b-0149d9d043d3">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="c1d67905-3c65-9f1e-e549-59d9a0b89d1b.f9f43bed-ea06-2d75-e32e-ee491a4599f4">
+                            <Add.Item>
+                                <Rectangle Thickness="0" Background="#FF735D3E" Id="c5d2649f-8eb9-2506-fa5f-58d18c37cc29" Panel.Bounds="2,38,36{5,2147483647},4{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Control.Click" Target="d8575b05-a632-92b0-8dd0-4336a9a2bf38">
+                            <Add.Item>
+                                <CommandNext SceneId="6af2b1be-00ca-2b2c-021b-7c15230694df" Created="08/23/2013 18:57:42" Id="eb3bd921-7a6a-3d6d-95fb-63993e83b29b" />
+                            </Add.Item>
+                        </Add>
+                        <Set Property="List.Background" Value="Transparent" Target="16b15f6d-7251-00aa-4d84-4d981872b37c" />
+                        <Resize To="288,45" Target="1695ebf1-5ebb-4069-6d9b-a229c20d790b" />
+                        <Move To="21,48" At="cf92daba-a445-1a7f-7dc1-eb1f18d0c182" Target="1695ebf1-5ebb-4069-6d9b-a229c20d790b" />
+                        <Set Property="Button.Text" Value="ADD COFFEE" Target="d8575b05-a632-92b0-8dd0-4336a9a2bf38" />
+                        <Set Property="Control.Opacity" Value="1" Target="c1d67905-3c65-9f1e-e549-59d9a0b89d1b.e4b7b212-9701-9b87-6cca-55a64e76c2e7" />
+                        <Set Property="Button.Background" Value="#FF735D3E" Target="d8575b05-a632-92b0-8dd0-4336a9a2bf38" />
+                        <Set Property="Control.Opacity" Value="1" Target="d8575b05-a632-92b0-8dd0-4336a9a2bf38" />
+                        <Set Property="Text.Foreground" Value="White" Target="d8575b05-a632-92b0-8dd0-4336a9a2bf38" />
+                        <Set Property="Label.Text" Value="What's the name of the cafe?" Target="f23cd7d6-06a6-ada8-30c5-edfd3ffd4e35" />
+                        <Set Property="Label.Text" Value="CATEGORIES &gt; Coffee" Target="b0cf066b-239b-414c-9be7-4c43f34bfc85" />
+                        <Set Property="TextBox.Text" Value="$4.80" Target="b85858f3-4311-c01b-8641-e5c6544b34b5" />
+                        <Set Property="Control.IsVisible" Value="False" Target="c1d67905-3c65-9f1e-e549-59d9a0b89d1b.86fb102a-441a-6ff6-09cf-229156b2e808" />
+                        <Set Property="Control.IsVisible" Value="False" Target="74cafa55-1931-9223-ab48-71a885e14bee.1695ebf1-5ebb-4069-6d9b-a229c20d790b" />
+                        <Set Property="TextBox.Border" Value="#FF717171" Target="b85858f3-4311-c01b-8641-e5c6544b34b5" />
+                        <Set Property="Text.Foreground" Value="#FF555555" Target="b85858f3-4311-c01b-8641-e5c6544b34b5" />
+                        <Set Property="Text.Foreground" Value="#FF735D3E" Target="b0cf066b-239b-414c-9be7-4c43f34bfc85" />
+                        <Set Property="Control.Opacity" Value="1" Target="b0cf066b-239b-414c-9be7-4c43f34bfc85" />
+                        <Remove Target="c1d67905-3c65-9f1e-e549-59d9a0b89d1b.1270bb03-d4d0-cfc2-7e34-e9e39af47622" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped Shopping" StateGroup="a9f65645-c795-c539-f906-10d9a38d305a" ParentScene="a9f65645-c795-c539-f906-10d9a38d305a" Created="08/23/2013 16:24:54" Id="1f2ee19f-7cd1-117c-57f8-ed3cb9667e34">
+            <Scene.KeyFrames>
+                <KeyFrame Id="086b42ec-4269-a2a6-7231-7acde10445a7">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="c1d67905-3c65-9f1e-e549-59d9a0b89d1b.f9f43bed-ea06-2d75-e32e-ee491a4599f4">
+                            <Add.Item>
+                                <Rectangle Thickness="0" Background="#FF725792" Id="bd96d3a3-dc48-4bfc-37ce-72d1de7f33a0" Panel.Bounds="67,39,36{5,2147483647},4{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Control.Click" Target="d8575b05-a632-92b0-8dd0-4336a9a2bf38">
+                            <Add.Item>
+                                <CommandSwitchTo SceneId="d08ca0c2-fc0f-444d-7bd6-6a3813b29114" Created="04/02/2015 17:57:00" Id="0b175ab8-657f-b0e4-344d-6a6cfa1d7b66" />
+                            </Add.Item>
+                        </Add>
+                        <Set Property="CompositeControl.Key" Value="40b4bded-bf09-1f3d-0570-81071dfef5d9" Target="8a1ddde5-334b-900e-84af-57aac3958a3e" />
+                        <Set Property="CompositeControl.Key" Value="40b4bded-bf09-1f3d-0570-81071dfef5d9" Target="92d3df46-9861-1943-4867-3be612845c85" />
+                        <Set Property="Button.Text" Value="ADD SHOPPING" Target="d8575b05-a632-92b0-8dd0-4336a9a2bf38" />
+                        <Set Property="Button.Background" Value="#FF725792" Target="d8575b05-a632-92b0-8dd0-4336a9a2bf38" />
+                        <Set Property="Text.Foreground" Value="White" Target="d8575b05-a632-92b0-8dd0-4336a9a2bf38" />
+                        <Set Property="Control.Opacity" Value="1" Target="d8575b05-a632-92b0-8dd0-4336a9a2bf38" />
+                        <Set Property="Label.Text" Value="Where did you shop?" Target="f23cd7d6-06a6-ada8-30c5-edfd3ffd4e35" />
+                        <Set Property="Control.Opacity" Value="1" Target="c1d67905-3c65-9f1e-e549-59d9a0b89d1b.620b6ca0-c9a9-5caf-72e9-3e3a7d79d437" />
+                        <Set Property="Label.Text" Value="CATEGORIES &gt; Shopping" Target="b0cf066b-239b-414c-9be7-4c43f34bfc85" />
+                        <Set Property="TextBox.Text" Value="$ 75.20" Target="b85858f3-4311-c01b-8641-e5c6544b34b5" />
+                        <Set Property="Text.Foreground" Value="#FF8064A2" Target="b0cf066b-239b-414c-9be7-4c43f34bfc85" />
+                        <Set Property="Control.Opacity" Value="1" Target="b0cf066b-239b-414c-9be7-4c43f34bfc85" />
+                        <Remove Target="c1d67905-3c65-9f1e-e549-59d9a0b89d1b.42357a8c-a7fc-24e8-fb68-59684f00b548" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped ADD COFFEE" StateGroup="49efd984-be1f-b45d-b191-fb728cd0d1a3" ParentScene="49efd984-be1f-b45d-b191-fb728cd0d1a3" Created="08/23/2013 18:57:42" Id="6af2b1be-00ca-2b2c-021b-7c15230694df">
+            <Scene.KeyFrames>
+                <KeyFrame Duration="350" Id="b2964d6b-afa1-dde7-5e01-baa1f00fb29d">
+                    <KeyFrame.Operations>
+                        <Add Property="ItemsControl&lt;ListItem,ListItemEventArgs&gt;.Items" Before="a49b5976-71d5-3105-6f05-20b861afe25f" Target="d1c265c2-a952-8ebb-663b-030b83fc2847" StartTimeMilliseconds="200" Duration="150">
+                            <Add.Item>
+                                <ListItem Id="7ec82db7-fcf2-f90b-2e6f-473597e74463" Name="Coffee New">
+                                    <ListItem.Content>
+                                        <SharedPart Id="24bcf608-1add-474a-87f2-210f12f31990">
+                                            <SharedPart.Customizations>
+                                                <Set Property="Shape.Background" Value="#FF735D3E" Target="7d51c2d4-b98c-4428-3552-1cadcd4ac924" />
+                                                <Set Property="ContainerBox.Background" Value="#FFFFFFC6" Target="034b5f87-e278-0837-3d92-5105ba978a1e" />
+                                            </SharedPart.Customizations>
+                                        </SharedPart>
+                                    </ListItem.Content>
+                                </ListItem>
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Label.Text" Value="$24.05" Target="1354c2fd-d229-c06f-e5dc-a096aca5ca25.436079c9-df66-e654-d42e-348108bbbb64" StartTimeMilliseconds="150" />
+                        <Move To="12,671" Target="f5d7125a-0746-0ccf-012b-fad37cd5c42c" Duration="250" />
+                        <Set Property="Control.Opacity" Value="0" Target="f5d7125a-0746-0ccf-012b-fad37cd5c42c" StartTimeMilliseconds="100" Duration="250" />
+                        <Remove Target="13531d6f-69c9-0f9c-67e3-ed4e7dad9f39" Duration="250" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+                <KeyFrame Duration="2150" Id="0b1d2bc4-da28-bba9-94ca-d774b181844c">
+                    <KeyFrame.Operations>
+                        <Set Property="ContainerBox.Background" Value="#FFFFFFFF" Target="24bcf608-1add-474a-87f2-210f12f31990.034b5f87-e278-0837-3d92-5105ba978a1e" StartTimeMilliseconds="1450" Duration="1050" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Swiped left over Coffee NEW" ParentScene="1a9ae2bf-8452-4c18-91c4-d6959c1deb69" Created="08/26/2013 18:52:02" Id="c4aba7f2-0376-3220-85b6-febfea6dd997">
+            <Scene.KeyFrames>
+                <KeyFrame Duration="300" Id="2c38721d-d8c9-3f22-5368-97f7d3c0330d">
+                    <KeyFrame.Operations>
+                        <Add Property="Control.Click" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.a00d175c-201d-01bc-16d0-95656daf91b3">
+                            <Add.Item>
+                                <CommandSwitchTo SceneId="8c4f26bd-9c1d-5755-3df9-3c6e66317703" Created="03/23/2015 18:03:40" Id="88abaf45-91a9-2706-3d4c-2005a2c0176b" />
+                            </Add.Item>
+                        </Add>
+                        <Move To="-64,12" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.7d51c2d4-b98c-4428-3552-1cadcd4ac924" Duration="200" />
+                        <Move To="-52,24" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.62257dfb-9ca0-a25f-d90f-c6abd617645d" Duration="200" />
+                        <Move To="6,15" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.3ce5907a-2f2c-653d-51fb-35ef1d473793" Duration="200" />
+                        <Move To="6,38" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.2e1910ca-2422-cc55-4cb3-7dffa3542d31" Duration="200" />
+                        <Move To="145,12" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.2ab928fd-20d0-d7dc-9f15-0c2353f466ab" Duration="200" />
+                        <Move To="219,20" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.5b0bda5a-938d-8b48-33ab-bc3de4ddfcce" Duration="200" />
+                        <Set Property="ContainerBox.Background" Value="#FFFDECEC" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.034b5f87-e278-0837-3d92-5105ba978a1e" Duration="200" />
+                        <Move To="247,1" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.a00d175c-201d-01bc-16d0-95656daf91b3" Duration="200" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped delete container" StateGroup="c4aba7f2-0376-3220-85b6-febfea6dd997" ParentScene="c4aba7f2-0376-3220-85b6-febfea6dd997" Created="08/28/2013 14:12:12" Id="8c4f26bd-9c1d-5755-3df9-3c6e66317703">
+            <Scene.KeyFrames>
+                <KeyFrame Duration="250" Id="d28681d9-3219-57a7-41da-9569b77f2e82">
+                    <KeyFrame.Operations>
+                        <Add Property="Control.Click" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.a00d175c-201d-01bc-16d0-95656daf91b3">
+                            <Add.Item>
+                                <CommandSwitchTo SceneId="1a9ae2bf-8452-4c18-91c4-d6959c1deb69" Created="03/23/2015 18:07:14" Id="1cba1fa8-a591-0007-0c63-dec29841143f" />
+                            </Add.Item>
+                        </Add>
+                        <Set Property="ContainerBox.Thickness" Value="1" Target="0849d384-32ef-b454-7112-bc0706d60d94.034b5f87-e278-0837-3d92-5105ba978a1e" />
+                        <Move To="300,20" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.5b0bda5a-938d-8b48-33ab-bc3de4ddfcce" Duration="250" />
+                        <Move To="226,12" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.2ab928fd-20d0-d7dc-9f15-0c2353f466ab" Duration="250" />
+                        <Move To="87,15" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.3ce5907a-2f2c-653d-51fb-35ef1d473793" Duration="250" />
+                        <Move To="87,38" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.2e1910ca-2422-cc55-4cb3-7dffa3542d31" Duration="250" />
+                        <Move To="29,24" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.62257dfb-9ca0-a25f-d90f-c6abd617645d" Duration="250" />
+                        <Move To="17,12" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.7d51c2d4-b98c-4428-3552-1cadcd4ac924" Duration="250" />
+                        <Set Property="ContainerBox.Background" Value="#FFFFFFE0" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.a00d175c-201d-01bc-16d0-95656daf91b3" Duration="250" />
+                        <Set Property="ContainerBox.Color" Value="#FFFFFF1C" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.a00d175c-201d-01bc-16d0-95656daf91b3" Duration="250" />
+                        <Set Property="ContainerBox.Background" Value="#FFFFFFE0" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.034b5f87-e278-0837-3d92-5105ba978a1e" Duration="250" />
+                        <Set Property="Icon.CatalogId" Value="Undo" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.257547f0-8a9b-8336-4312-a5f28d2d3e2f" />
+                        <Set Property="Icon.Color" Value="#FF1C1C1C" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.257547f0-8a9b-8336-4312-a5f28d2d3e2f" Duration="250" />
+                        <Set Property="Label.Text" Value="undo?" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.176413d3-9f47-efc8-057a-37481eb15776" />
+                        <Set Property="Text.Foreground" Value="#FFAAAAAA" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.176413d3-9f47-efc8-057a-37481eb15776" Duration="250" />
+                        <Set Property="ContainerBox.Thickness" Value="0" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.a00d175c-201d-01bc-16d0-95656daf91b3" />
+                        <Set Property="Control.Opacity" Value="0.4" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.3ce5907a-2f2c-653d-51fb-35ef1d473793" Duration="250" />
+                        <Set Property="Control.Opacity" Value="0.4" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.62257dfb-9ca0-a25f-d90f-c6abd617645d" Duration="250" />
+                        <Set Property="Control.Opacity" Value="0.4" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.2e1910ca-2422-cc55-4cb3-7dffa3542d31" Duration="250" />
+                        <Set Property="Control.Opacity" Value="0.4" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.7d51c2d4-b98c-4428-3552-1cadcd4ac924" Duration="250" />
+                        <Remove Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.8d102236-d164-0aa2-45fb-6c9fb2b3315e" />
+                        <Remove Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.88abaf45-91a9-2706-3d4c-2005a2c0176b" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Swiped right over Coffee NEW" ParentScene="1a9ae2bf-8452-4c18-91c4-d6959c1deb69" Created="09/03/2013 15:05:53" Id="51b932b6-87dc-71fc-e435-beff7fd573d8">
+            <Scene.KeyFrames>
+                <KeyFrame Duration="200" Id="900e8efe-9f7f-b352-1bd7-ea566b441349">
+                    <KeyFrame.Operations>
+                        <Add Property="Control.Click" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.8d102236-d164-0aa2-45fb-6c9fb2b3315e">
+                            <Add.Item>
+                                <CommandSwitchTo SceneId="f341bedd-bb28-67e4-ff28-db3b8cb02945" Created="04/02/2015 18:06:19" Id="1fba701b-8a23-1632-958a-43a8465b6415" />
+                            </Add.Item>
+                        </Add>
+                        <Move To="118,24" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.62257dfb-9ca0-a25f-d90f-c6abd617645d" Duration="200" />
+                        <Move To="176,38" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.2e1910ca-2422-cc55-4cb3-7dffa3542d31" Duration="200" />
+                        <Move To="176,15" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.3ce5907a-2f2c-653d-51fb-35ef1d473793" Duration="200" />
+                        <Move To="106,12" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.7d51c2d4-b98c-4428-3552-1cadcd4ac924" Duration="200" />
+                        <Move To="295,12" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.2ab928fd-20d0-d7dc-9f15-0c2353f466ab" Duration="200" />
+                        <Move To="369,20" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.5b0bda5a-938d-8b48-33ab-bc3de4ddfcce" Duration="200" />
+                        <Set Property="ContainerBox.Background" Value="#FEEFEFEF" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.034b5f87-e278-0837-3d92-5105ba978a1e" Duration="200" />
+                        <Move To="-3,0" Target="df5bcaf1-8910-68ed-230a-bec02b8d3728.8d102236-d164-0aa2-45fb-6c9fb2b3315e" Duration="200" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped ADD SHOPPING" StateGroup="1f2ee19f-7cd1-117c-57f8-ed3cb9667e34" ParentScene="1f2ee19f-7cd1-117c-57f8-ed3cb9667e34" Created="04/02/2015 17:57:00" Id="d08ca0c2-fc0f-444d-7bd6-6a3813b29114">
+            <Scene.KeyFrames>
+                <KeyFrame Duration="400" Id="68a4e780-8d41-6602-589d-7c59c8764972">
+                    <KeyFrame.Operations>
+                        <Add Property="ItemsControl&lt;ListItem,ListItemEventArgs&gt;.Items" Before="a49b5976-71d5-3105-6f05-20b861afe25f" Target="d1c265c2-a952-8ebb-663b-030b83fc2847" StartTimeMilliseconds="150" Duration="250">
+                            <Add.Item>
+                                <ListItem Id="3d00de97-947f-ab31-4c26-26feda8c7b0e" Name="Shopping new">
+                                    <ListItem.Content>
+                                        <SharedPart Id="417a232d-7cd9-ed5a-38e6-9cd407b5d9d7">
+                                            <SharedPart.Customizations>
+                                                <Set Property="Label.Text" Value="Shopping " Target="3ce5907a-2f2c-653d-51fb-35ef1d473793" />
+                                                <Set Property="Icon.CatalogId" Value="Shopping Bag" Target="62257dfb-9ca0-a25f-d90f-c6abd617645d" />
+                                                <Set Property="Shape.Background" Value="#FF8E75AC" Target="7d51c2d4-b98c-4428-3552-1cadcd4ac924" />
+                                                <Set Property="ContainerBox.Background" Value="#FFFFFFC6" Target="034b5f87-e278-0837-3d92-5105ba978a1e" />
+                                            </SharedPart.Customizations>
+                                        </SharedPart>
+                                    </ListItem.Content>
+                                </ListItem>
+                            </Add.Item>
+                        </Add>
+                        <Move To="13,672" Target="f5d7125a-0746-0ccf-012b-fad37cd5c42c" Duration="250" />
+                        <Set Property="Control.Opacity" Value="0" Target="f5d7125a-0746-0ccf-012b-fad37cd5c42c" Duration="250" />
+                        <Remove Target="13531d6f-69c9-0f9c-67e3-ed4e7dad9f39" Duration="250" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+                <KeyFrame Duration="1300" Id="1936c862-638c-1599-363c-f1b1bbb9e694">
+                    <KeyFrame.Operations>
+                        <Set Property="ContainerBox.Background" Value="#FFFFFFFF" Target="417a232d-7cd9-ed5a-38e6-9cd407b5d9d7.034b5f87-e278-0837-3d92-5105ba978a1e" StartTimeMilliseconds="950" Duration="750" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped Edit container" StateGroup="51b932b6-87dc-71fc-e435-beff7fd573d8" ParentScene="51b932b6-87dc-71fc-e435-beff7fd573d8" Created="04/02/2015 18:06:19" Id="f341bedd-bb28-67e4-ff28-db3b8cb02945">
+            <Scene.KeyFrames>
+                <KeyFrame Duration="50" Id="2369f9cb-103f-ae98-457c-e31a939ffbc1">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="4c8afac8-e845-8844-d017-10b7d44b7d69">
+                            <Add.Item>
+                                <ContainerBox Color="#FF555555" Thickness="3" CornerRadius="7" Id="8ef6faf1-5e53-053e-4afb-c76ef2d71728" Name="Editor" Panel.Bounds="12,666,349{5,2147483647},598{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="9b531ea4-28fb-f140-abe4-4fd7a220939c">
+                                            <Container.Children>
+                                                <List Direction="Vertical" Background="#9BFFFFFF" Thickness="0" Id="3f7da339-3d4b-b1ad-334c-c9314778b16b" Panel.Bounds="13,274,309{5,2147483647},220{5,2147483647}">
+                                                    <List.Template>
+                                                        <Template Id="bba6e0cd-cdbd-c521-1a78-9c755216e949">
+                                                            <Template.Content>
+                                                                <ListItemContent Thickness="0" Id="ba9da049-2afc-4ec5-a987-f3a1b20efd52" Panel.Bounds="0,0,306*,55" Panel.Layout="Stretch">
+                                                                    <ListItemContent.Content>
+                                                                        <Container ClipToContainer="True" Id="e60c7627-2f24-c214-df12-9972d3ee4186">
+                                                                            <Container.Children>
+                                                                                <Button Text="1" Background="#61E2E2E2" BorderColor="#FFE2E2E2" BorderThickness="0" Foreground="#FF555555" FontSize="28" Id="d7db101c-4353-f22a-c5e6-acbb7042f9db" Panel.Bounds="3,2,93{5,2147483647},45{5,2147483647}" />
+                                                                                <Button Text="1" Background="#61E2E2E2" BorderColor="#FFE2E2E2" BorderThickness="0" Foreground="#FF555555" FontSize="28" Id="0f798134-35be-9aab-853e-685119fd1371" Panel.Bounds="106,2,93{5,2147483647},45{5,2147483647}" />
+                                                                                <Button Text="1" Background="#61E2E2E2" BorderColor="#FFE2E2E2" BorderThickness="0" Foreground="#FF555555" FontSize="28" Id="665829d2-aab6-5808-0007-c1e0b2788fd4" Panel.Bounds="208,2,93{5,2147483647},45{5,2147483647}" />
+                                                                            </Container.Children>
+                                                                        </Container>
+                                                                    </ListItemContent.Content>
+                                                                </ListItemContent>
+                                                            </Template.Content>
+                                                        </Template>
+                                                    </List.Template>
+                                                    <List.Items>
+                                                        <ListItem Id="a6eaf930-2716-3be1-c170-cd75d227c17a">
+                                                            <ListItem.Content>
+                                                                <SharedPart Id="a47c3297-db75-4dde-d76c-644be7927b4b">
+                                                                    <SharedPart.Customizations>
+                                                                        <Set Property="Button.Text" Value="2" Target="0f798134-35be-9aab-853e-685119fd1371" />
+                                                                        <Set Property="Button.Text" Value="3" Target="665829d2-aab6-5808-0007-c1e0b2788fd4" />
+                                                                    </SharedPart.Customizations>
+                                                                </SharedPart>
+                                                            </ListItem.Content>
+                                                        </ListItem>
+                                                        <ListItem Id="3a5f0667-5d77-7c49-f410-11f5ed0e8078">
+                                                            <ListItem.Content>
+                                                                <SharedPart Id="45d09937-3e0a-acd3-f841-f884c2f7ef25">
+                                                                    <SharedPart.Customizations>
+                                                                        <Set Property="Button.Text" Value="4" Target="d7db101c-4353-f22a-c5e6-acbb7042f9db" />
+                                                                        <Set Property="Button.Text" Value="5" Target="0f798134-35be-9aab-853e-685119fd1371" />
+                                                                        <Set Property="Button.Text" Value="6" Target="665829d2-aab6-5808-0007-c1e0b2788fd4" />
+                                                                    </SharedPart.Customizations>
+                                                                </SharedPart>
+                                                            </ListItem.Content>
+                                                        </ListItem>
+                                                        <ListItem Id="237bd4d3-7fa3-0862-2c65-01dc040f2b47">
+                                                            <ListItem.Content>
+                                                                <SharedPart Id="d71357bb-1623-49a5-7612-e33514f04a3c">
+                                                                    <SharedPart.Customizations>
+                                                                        <Set Property="Button.Text" Value="7" Target="d7db101c-4353-f22a-c5e6-acbb7042f9db" />
+                                                                        <Set Property="Button.Text" Value="8" Target="0f798134-35be-9aab-853e-685119fd1371" />
+                                                                        <Set Property="Button.Text" Value="9" Target="665829d2-aab6-5808-0007-c1e0b2788fd4" />
+                                                                    </SharedPart.Customizations>
+                                                                </SharedPart>
+                                                            </ListItem.Content>
+                                                        </ListItem>
+                                                        <ListItem Id="9d0b1c56-2a92-bbbb-d07b-c80bfef581fc">
+                                                            <ListItem.Content>
+                                                                <SharedPart Id="3eeec4cc-7ba8-a670-4185-bbd6df030f38">
+                                                                    <SharedPart.Customizations>
+                                                                        <Set Property="Button.Text" Value="cents" Target="d7db101c-4353-f22a-c5e6-acbb7042f9db" />
+                                                                        <Set Property="Text.FontSize" Value="24" Target="d7db101c-4353-f22a-c5e6-acbb7042f9db" />
+                                                                        <Set Property="Button.Text" Value="0" Target="0f798134-35be-9aab-853e-685119fd1371" />
+                                                                        <Set Property="Button.Text" Value="" Target="665829d2-aab6-5808-0007-c1e0b2788fd4" />
+                                                                        <Add Property="Panel.Children" Target="e60c7627-2f24-c214-df12-9972d3ee4186">
+                                                                            <Add.Item>
+                                                                                <Icon CatalogId="BackSpace" Id="5246e7e2-35c8-f6a4-4b92-90bf2bf6629b" Panel.Bounds="238,7,32{5,2147483647},32{5,2147483647}" />
+                                                                            </Add.Item>
+                                                                        </Add>
+                                                                        <Resize To="306,52" Target="ba9da049-2afc-4ec5-a987-f3a1b20efd52" />
+                                                                    </SharedPart.Customizations>
+                                                                </SharedPart>
+                                                            </ListItem.Content>
+                                                        </ListItem>
+                                                    </List.Items>
+                                                </List>
+                                                <i:Title Text="CATEGORIES &gt; Coffee" Align="Center" Foreground="#FF735D3E" FontSize="12" Id="25515daa-c430-f2e8-e432-53b55b6d7c9d" Panel.Bounds="21,87,296{5,2147483647},16{5,2147483647}" />
+                                                <i:PageControlContent Id="30c24111-6fdc-3749-7f29-bb53ae2eca73" CompositeControl.Key="37ef5b6f-a23a-e3c2-3083-247a622d5aec" Panel.Bounds="5,107,329{5,2147483647},98{5,2147483647}">
+                                                    <i:PageControlContent.Items>
+                                                        <i2:ContainerListItem Text="Page 1 Content" IsSelected="True" Id="a1e23ef0-b269-e397-4b51-c4bc9ccb7830" i2:ContainerListControl.ItemKey="13208ae9-996a-66da-b669-f475898ca0b2">
+                                                            <i2:ContainerListItem.Content>
+                                                                <Container ClipToContainer="True" Id="ccc24c9d-4410-94cc-6acc-3dd7d01c1f29" Panel.Bounds="0,0,320*,100*">
+                                                                    <Container.Children>
+                                                                        <List Direction="Vertical" Background="#00FFFFFF" Thickness="0" Id="00890b4a-ecb1-934d-4925-e3eabfb5fcc5" Name="icons pg1" Panel.Bounds="13,0,303{5,2147483647},97{5,2147483647}">
+                                                                            <List.Template>
+                                                                                <Template Id="f14db8fc-d65a-537c-3c9b-ea849e8b52a6">
+                                                                                    <Template.Content>
+                                                                                        <ListItemContent Thickness="0" Padding="3,3,3,0" Id="69d74265-9df6-88e4-163f-e3aa51a7a0e4" Panel.Bounds="0,0,300*,48" Panel.Layout="Stretch">
+                                                                                            <ListItemContent.Content>
+                                                                                                <Container ClipToContainer="True" Id="60703a86-6e12-700b-5c8f-f1a827930c29">
+                                                                                                    <Container.Children>
+                                                                                                        <Icon CatalogId="Pin" Opacity="0.6" Id="e08c24b3-a171-5c18-2313-78528d4f82aa" Name="Coffee" Panel.Bounds="6,3,32{5,2147483647},32{5,2147483647}" />
+                                                                                                        <Icon CatalogId="Pin" Opacity="0.6" Id="40fe6937-21d9-1b92-c47f-6d76c7169770" Panel.Bounds="69,3,32{5,2147483647},32{5,2147483647}" />
+                                                                                                        <Icon CatalogId="Pin" Opacity="0.6" Id="d9207b61-f7f1-71a3-6a2f-5fc6c1191709" Panel.Bounds="132,3,32{5,2147483647},32{5,2147483647}" />
+                                                                                                        <Icon CatalogId="Pin" Opacity="0.6" Id="1cf57d96-cf88-5c4f-27d1-58522c2b70a4" Panel.Bounds="195,3,32{5,2147483647},32{5,2147483647}" />
+                                                                                                        <Icon CatalogId="Pin" Opacity="0.6" Id="5a9c0d6e-13f6-7f24-e5bf-b918a56364d4" Panel.Bounds="258,3,32{5,2147483647},32{5,2147483647}" />
+                                                                                                    </Container.Children>
+                                                                                                </Container>
+                                                                                            </ListItemContent.Content>
+                                                                                        </ListItemContent>
+                                                                                    </Template.Content>
+                                                                                </Template>
+                                                                            </List.Template>
+                                                                            <List.Items>
+                                                                                <ListItem Id="a457443b-52f8-eb20-a9b8-ae024d5f6c5b">
+                                                                                    <ListItem.Content>
+                                                                                        <SharedPart Id="477f3428-e709-7c82-617d-3617b31707ef">
+                                                                                            <SharedPart.Customizations>
+                                                                                                <Add Property="Panel.Children" Before="e08c24b3-a171-5c18-2313-78528d4f82aa" Target="60703a86-6e12-700b-5c8f-f1a827930c29">
+                                                                                                    <Add.Item>
+                                                                                                        <Rectangle CornerRadius="3" Color="#3A3DB5E5" Id="88fba06d-ac97-9684-3778-18b5505d2225" Panel.Bounds="66,2,38{5,2147483647},40{5,2147483647}" />
+                                                                                                    </Add.Item>
+                                                                                                </Add>
+                                                                                                <Set Property="Icon.Color" Value="#FF735D3E" Target="e08c24b3-a171-5c18-2313-78528d4f82aa" />
+                                                                                                <Set Property="Icon.CatalogId" Value="Coffee" Target="e08c24b3-a171-5c18-2313-78528d4f82aa" />
+                                                                                                <Set Property="Control.Opacity" Value="1" Target="e08c24b3-a171-5c18-2313-78528d4f82aa" />
+                                                                                                <Set Property="Icon.Color" Value="#FF725792" Target="40fe6937-21d9-1b92-c47f-6d76c7169770" />
+                                                                                                <Set Property="Icon.CatalogId" Value="Shopping Bag" Target="40fe6937-21d9-1b92-c47f-6d76c7169770" />
+                                                                                                <Set Property="Icon.Color" Value="#FF349C42" Target="d9207b61-f7f1-71a3-6a2f-5fc6c1191709" />
+                                                                                                <Set Property="Icon.CatalogId" Value="Book Stack" Target="d9207b61-f7f1-71a3-6a2f-5fc6c1191709" />
+                                                                                                <Set Property="Icon.Color" Value="#FFEDC50C" Target="1cf57d96-cf88-5c4f-27d1-58522c2b70a4" />
+                                                                                                <Set Property="Icon.CatalogId" Value="Ticket" Target="1cf57d96-cf88-5c4f-27d1-58522c2b70a4" />
+                                                                                                <Set Property="Icon.Color" Value="#FFCB6009" Target="5a9c0d6e-13f6-7f24-e5bf-b918a56364d4" />
+                                                                                                <Set Property="Icon.CatalogId" Value="fa-truck" Target="5a9c0d6e-13f6-7f24-e5bf-b918a56364d4" />
+                                                                                                <Add Property="Panel.Children" Target="60703a86-6e12-700b-5c8f-f1a827930c29">
+                                                                                                    <Add.Item>
+                                                                                                        <HotSpot Thickness="1" IsClosed="True" Opacity="0.25" IsVisible="False" Id="32516b2a-6e2d-960c-0ee4-fd23138527d9" Name="catg. n/a" Panel.Bounds="125,2,166,38">
+                                                                                                            <HotSpot.StartPoint>
+                                                                                                                <Point Id="c5fd1933-739f-dd19-088e-b413c855ce6d" />
+                                                                                                            </HotSpot.StartPoint>
+                                                                                                            <HotSpot.Segments>
+                                                                                                                <Segment Id="5f552de6-0423-40f0-1434-c8178e29d54a">
+                                                                                                                    <Segment.EndPoint>
+                                                                                                                        <Point Y="100" Id="ab52409f-05a4-9bc5-8d7d-e4ffeb60e3e5" />
+                                                                                                                    </Segment.EndPoint>
+                                                                                                                </Segment>
+                                                                                                                <Segment Id="1483d4b2-193b-9513-ac1a-e0a87c2863a2">
+                                                                                                                    <Segment.EndPoint>
+                                                                                                                        <Point X="100" Y="100" Id="abede4a9-fd96-e992-122e-2dbf5a9e335a" />
+                                                                                                                    </Segment.EndPoint>
+                                                                                                                </Segment>
+                                                                                                                <Segment Id="e96067db-0f8c-ad32-1470-344de5373311">
+                                                                                                                    <Segment.EndPoint>
+                                                                                                                        <Point X="100" Id="ccd44fc6-c3bb-d10e-f2ba-3beae760f606" />
+                                                                                                                    </Segment.EndPoint>
+                                                                                                                </Segment>
+                                                                                                                <Segment Id="5cd1ac78-69f4-ab84-4c99-d78dab054a84">
+                                                                                                                    <Segment.EndPoint>
+                                                                                                                        <Point Id="106b7807-57cd-fa9c-ad08-93ba920d110e" />
+                                                                                                                    </Segment.EndPoint>
+                                                                                                                </Segment>
+                                                                                                            </HotSpot.Segments>
+                                                                                                        </HotSpot>
+                                                                                                    </Add.Item>
+                                                                                                </Add>
+                                                                                                <Add Property="Panel.Children" Target="60703a86-6e12-700b-5c8f-f1a827930c29">
+                                                                                                    <Add.Item>
+                                                                                                        <Rectangle Thickness="0" Background="#FF735D3E" Id="5bc0b595-4f3f-55a5-c769-168966e86815" Panel.Bounds="2,38,36{5,2147483647},4{5,2147483647}" />
+                                                                                                    </Add.Item>
+                                                                                                </Add>
+                                                                                            </SharedPart.Customizations>
+                                                                                        </SharedPart>
+                                                                                    </ListItem.Content>
+                                                                                </ListItem>
+                                                                                <ListItem Id="607f9bb8-4d40-0028-f398-695bcd384068">
+                                                                                    <ListItem.Content>
+                                                                                        <SharedPart Id="8d74948d-a43e-eae3-542c-b2a524fcc681">
+                                                                                            <SharedPart.Customizations>
+                                                                                                <Set Property="Icon.Color" Value="#FFAE0000" Target="e08c24b3-a171-5c18-2313-78528d4f82aa" />
+                                                                                                <Set Property="Icon.CatalogId" Value="Club" Target="e08c24b3-a171-5c18-2313-78528d4f82aa" />
+                                                                                                <Set Property="Icon.Color" Value="#FF4281D0" Target="40fe6937-21d9-1b92-c47f-6d76c7169770" />
+                                                                                                <Set Property="Icon.CatalogId" Value="Airplane" Target="40fe6937-21d9-1b92-c47f-6d76c7169770" />
+                                                                                                <Set Property="Icon.Color" Value="#FF3A9EB8" Target="d9207b61-f7f1-71a3-6a2f-5fc6c1191709" />
+                                                                                                <Set Property="Icon.CatalogId" Value="Cell Bars" Target="d9207b61-f7f1-71a3-6a2f-5fc6c1191709" />
+                                                                                                <Set Property="Icon.Color" Value="#FF84312F" Target="1cf57d96-cf88-5c4f-27d1-58522c2b70a4" />
+                                                                                                <Set Property="Icon.CatalogId" Value="Featured" Target="1cf57d96-cf88-5c4f-27d1-58522c2b70a4" />
+                                                                                                <Set Property="Icon.Color" Value="#FF1C1C1C" Target="5a9c0d6e-13f6-7f24-e5bf-b918a56364d4" />
+                                                                                                <Set Property="Icon.CatalogId" Value="Home" Target="5a9c0d6e-13f6-7f24-e5bf-b918a56364d4" />
+                                                                                                <Add Property="Panel.Children" Target="60703a86-6e12-700b-5c8f-f1a827930c29">
+                                                                                                    <Add.Item>
+                                                                                                        <HotSpot Thickness="1" IsClosed="True" Opacity="0.25" IsVisible="False" Id="990e59dc-c455-9624-924f-37afb1a415b3" Name="catg. n/a" Panel.Bounds="0,0,294,38">
+                                                                                                            <HotSpot.StartPoint>
+                                                                                                                <Point Id="74c21e59-5158-93ca-452b-aff7ee84ccfa" />
+                                                                                                            </HotSpot.StartPoint>
+                                                                                                            <HotSpot.Segments>
+                                                                                                                <Segment Id="b446adbb-666f-9ed3-4317-38cae8e8b13c">
+                                                                                                                    <Segment.EndPoint>
+                                                                                                                        <Point Y="100" Id="901acf62-9255-957d-fc51-ac42b7c7aeb2" />
+                                                                                                                    </Segment.EndPoint>
+                                                                                                                </Segment>
+                                                                                                                <Segment Id="0e94a361-b69e-8aa1-e4ac-bd0931607e3a">
+                                                                                                                    <Segment.EndPoint>
+                                                                                                                        <Point X="100" Y="100" Id="20a8c118-daea-6d85-6211-a8402ae0fa3c" />
+                                                                                                                    </Segment.EndPoint>
+                                                                                                                </Segment>
+                                                                                                                <Segment Id="39ff495b-8331-c0f5-4c00-8b9d2d7b3a40">
+                                                                                                                    <Segment.EndPoint>
+                                                                                                                        <Point X="100" Id="53114b57-0ab6-7475-8d96-5219997b597b" />
+                                                                                                                    </Segment.EndPoint>
+                                                                                                                </Segment>
+                                                                                                                <Segment Id="634f2cb4-b805-65cb-a5ee-198bc5c77317">
+                                                                                                                    <Segment.EndPoint>
+                                                                                                                        <Point Id="0d71f31f-7f64-e5cd-70f6-d9de8a7febfa" />
+                                                                                                                    </Segment.EndPoint>
+                                                                                                                </Segment>
+                                                                                                            </HotSpot.Segments>
+                                                                                                        </HotSpot>
+                                                                                                    </Add.Item>
+                                                                                                </Add>
+                                                                                            </SharedPart.Customizations>
+                                                                                        </SharedPart>
+                                                                                    </ListItem.Content>
+                                                                                </ListItem>
+                                                                            </List.Items>
+                                                                        </List>
+                                                                    </Container.Children>
+                                                                </Container>
+                                                            </i2:ContainerListItem.Content>
+                                                        </i2:ContainerListItem>
+                                                        <i2:ContainerListItem Text="Page 2 Content" Id="f5169818-5cc1-8766-3727-82214bd81503" i2:ContainerListControl.ItemKey="9efb01ca-f2f3-3c42-f6a7-9c6de0e1c5b7">
+                                                            <i2:ContainerListItem.Content>
+                                                                <Container ClipToContainer="True" Id="745d8091-088a-3b2e-189e-d63e4ec59a9c">
+                                                                    <Container.Children>
+                                                                        <List Direction="Vertical" Thickness="0" Id="8b4495a5-8ac7-b470-c2ac-51bba40bf1f5" Name="icons pg 2" Panel.Bounds="13,0,307{5,2147483647},98{5,2147483647}">
+                                                                            <List.Template>
+                                                                                <Template Id="2171fefc-e8d0-512f-7f4a-8415ad792179">
+                                                                                    <Template.Content>
+                                                                                        <ListItemContent Thickness="0" Id="d0745997-5abc-c2d7-a491-f43568580ef3" Panel.Bounds="0,0,300*,48" Panel.Layout="Stretch">
+                                                                                            <ListItemContent.Content>
+                                                                                                <Container ClipToContainer="True" Id="af542cb9-d6a6-e513-0d6a-2fa68929ffcc">
+                                                                                                    <Container.Children>
+                                                                                                        <Icon CatalogId="Image" Opacity="0.28" Id="9ca16e57-7d31-94bb-bc78-9a56368e9ad8" Name="Stage" Panel.Bounds="6,3,32{5,2147483647},32{5,2147483647}" />
+                                                                                                        <Icon CatalogId="Image" Opacity="0.28" Id="be195996-702a-c3ad-c66e-eac0120114e8" Panel.Bounds="69,3,32{5,2147483647},32{5,2147483647}" />
+                                                                                                        <Icon CatalogId="Image" Opacity="0.28" Id="89dd911d-51af-2671-ca98-9858aac58e01" Panel.Bounds="132,3,32{5,2147483647},32{5,2147483647}" />
+                                                                                                        <Icon CatalogId="Image" Opacity="0.28" Id="d8be004e-ab01-3f5b-1615-4bca23c9ea01" Panel.Bounds="195,3,32{5,2147483647},32{5,2147483647}" />
+                                                                                                        <Icon CatalogId="Image" Opacity="0.28" Id="c7ead994-8577-aab0-ae1b-1b3c41d85969" Panel.Bounds="258,3,32{5,2147483647},32{5,2147483647}" />
+                                                                                                    </Container.Children>
+                                                                                                </Container>
+                                                                                            </ListItemContent.Content>
+                                                                                        </ListItemContent>
+                                                                                    </Template.Content>
+                                                                                </Template>
+                                                                            </List.Template>
+                                                                            <List.Items>
+                                                                                <ListItem Id="49cf68fc-15bb-221e-02c8-964998c8da76" Panel.Bounds="0,0,303*,48*">
+                                                                                    <ListItem.Content>
+                                                                                        <SharedPart Id="ad050a26-e802-ea14-62f3-f09e4d53bb56" Panel.Bounds="0,0,303*,48*" />
+                                                                                    </ListItem.Content>
+                                                                                </ListItem>
+                                                                                <ListItem Id="5f30cf67-03d7-8477-f219-7fb453c1f0ed" Panel.Bounds="0,0,303*,48*">
+                                                                                    <ListItem.Content>
+                                                                                        <SharedPart Id="2c356899-771d-784d-4c40-26aaf9aae8fd" Panel.Bounds="0,0,303*,48*" />
+                                                                                    </ListItem.Content>
+                                                                                </ListItem>
+                                                                            </List.Items>
+                                                                        </List>
+                                                                        <HotSpot Thickness="1" IsClosed="True" Opacity="0.25" Id="efd2700f-409a-e41d-c10a-df296a08e231" Name="not defined" Panel.Bounds="16,3,300,87">
+                                                                            <HotSpot.StartPoint>
+                                                                                <Point Id="f49fb5d5-eeb9-02d2-e2c7-79b3699d74db" />
+                                                                            </HotSpot.StartPoint>
+                                                                            <HotSpot.Segments>
+                                                                                <Segment Id="f69c7ef1-d202-83e0-1e39-dac6bcfd795f">
+                                                                                    <Segment.EndPoint>
+                                                                                        <Point Y="100" Id="57cd7d86-b6cf-63b2-73bb-e43e046178e4" />
+                                                                                    </Segment.EndPoint>
+                                                                                </Segment>
+                                                                                <Segment Id="ce270908-b589-cf88-4d58-1eaefff85f1d">
+                                                                                    <Segment.EndPoint>
+                                                                                        <Point X="100" Y="100" Id="7a78adeb-07af-654f-8fd1-014096d4d9cc" />
+                                                                                    </Segment.EndPoint>
+                                                                                </Segment>
+                                                                                <Segment Id="03b89da2-808e-22ea-3354-54ef9cfe9244">
+                                                                                    <Segment.EndPoint>
+                                                                                        <Point X="100" Id="7084f6bc-c8aa-4e84-c589-55db3befd7b8" />
+                                                                                    </Segment.EndPoint>
+                                                                                </Segment>
+                                                                                <Segment Id="472b26ac-4937-4886-a0ea-a78f27d272bc">
+                                                                                    <Segment.EndPoint>
+                                                                                        <Point Id="620ec428-f95d-24ff-32ef-ccb33c8be551" />
+                                                                                    </Segment.EndPoint>
+                                                                                </Segment>
+                                                                            </HotSpot.Segments>
+                                                                        </HotSpot>
+                                                                    </Container.Children>
+                                                                </Container>
+                                                            </i2:ContainerListItem.Content>
+                                                        </i2:ContainerListItem>
+                                                    </i:PageControlContent.Items>
+                                                </i:PageControlContent>
+                                                <i:PageControlButtons FontStyle="" Id="56abd5be-35ea-e7d8-3567-7847aa46c3ab" CompositeControl.Key="37ef5b6f-a23a-e3c2-3083-247a622d5aec" Panel.Bounds="145,212,48*,16*">
+                                                    <i:PageControlButtons.Items>
+                                                        <i:PageControlItem Text="Page 1" IsSelected="True" Id="fae7e5e4-c789-f2bf-1bf7-eb707fd0cddf" i2:ContainerListControl.ItemKey="13208ae9-996a-66da-b669-f475898ca0b2" Panel.Bounds="0,0,16*,16*" />
+                                                        <i:PageControlItem Text="Page 2" Id="556ed7da-8aef-b66b-5ca9-d4aa5ac0419b" i2:ContainerListControl.ItemKey="9efb01ca-f2f3-3c42-f6a7-9c6de0e1c5b7" Panel.Bounds="0,0,16*,16*" />
+                                                    </i:PageControlButtons.Items>
+                                                </i:PageControlButtons>
+                                                <TextBox Text="$4.80" Border="#FF717171" Foreground="#FF555555" FontSize="24" FontFamily="Georgia" Id="d8a2d388-ebd1-b3e4-731e-dbe5e02743d3" Panel.Bounds="23,30,192{5,2147483647},5*{5,2147483647}" />
+                                                <Button Text="ADD COFFEE" Background="#FF735D3E" BorderColor="#FFC6C6C6" BorderThickness="0" Foreground="#FFFFFFFF" FontSize="20" Id="bb845aef-5eef-3ca4-f7c7-16a1159c6223" Panel.Bounds="21,499,296{5,2147483647},55{5,2147483647}">
+                                                    <Button.Click>
+                                                        <CommandSwitchTo SceneId="1a9ae2bf-8452-4c18-91c4-d6959c1deb69" Created="04/08/2015 19:48:16" Id="f67dace7-6911-bad0-ce93-541cea763eab" />
+                                                    </Button.Click>
+                                                </Button>
+                                                <Group GroupName="Group" Id="77b3c24d-b39d-f5e2-0a52-8de1b80c886b" Panel.Bounds="19,237,0*,0*">
+                                                    <Group.Children>
+                                                        <Label Text="What's the name of the cafe?" FontStyle="Normal|Italic|Bold" Opacity="0.2" Id="8a577442-6dd7-854b-b3bb-480fb439a63e" Panel.Bounds="11,5,0*,0*" />
+                                                        <TextBox Border="#FFE2E2E2" Background="#00FFFFFF" FontSize="16" Id="34c85ae4-1889-e5ed-216c-205143bb1c7f" Panel.Bounds="0,0,296,39*" />
+                                                    </Group.Children>
+                                                </Group>
+                                                <Button Text="CANCEL" BorderColor="#FFE2E2E2" Foreground="#FF8D8D8D" Id="ae8ed4d9-01ae-c1c3-c824-dc1c04fbcb51" Panel.Bounds="225,30,93{5,2147483647},34{5,2147483647}">
+                                                    <Button.Click>
+                                                        <CommandSwitchTo SceneId="1a9ae2bf-8452-4c18-91c4-d6959c1deb69" Created="04/02/2015 18:10:54" Id="4c1d63c5-deeb-8ddf-5cc9-e4e11e20945f" />
+                                                    </Button.Click>
+                                                </Button>
+                                                <HotSpot Thickness="1" IsClosed="True" Opacity="0.25" Id="dd81c714-399b-cc37-68f7-6d25af53d363" Name="numberpad n/a" Panel.Bounds="17,271,298,212">
+                                                    <HotSpot.StartPoint>
+                                                        <Point Id="272f0deb-5df4-273e-e031-3f768ed9e047" />
+                                                    </HotSpot.StartPoint>
+                                                    <HotSpot.Segments>
+                                                        <Segment Id="f258c3ea-a9af-179e-a377-91620e2e896a">
+                                                            <Segment.EndPoint>
+                                                                <Point Y="100" Id="e5c51844-2577-a67a-6547-2bd4e499e770" />
+                                                            </Segment.EndPoint>
+                                                        </Segment>
+                                                        <Segment Id="7451c94a-715d-ad52-fe0d-f23c6d9a1420">
+                                                            <Segment.EndPoint>
+                                                                <Point X="100" Y="100" Id="02a1d03b-9c18-f521-c875-a2941ba6aea1" />
+                                                            </Segment.EndPoint>
+                                                        </Segment>
+                                                        <Segment Id="eb4ef64b-568d-2f4b-12d3-367ffac60611">
+                                                            <Segment.EndPoint>
+                                                                <Point X="100" Id="a7770858-7622-f3ec-1851-deb34535e0ef" />
+                                                            </Segment.EndPoint>
+                                                        </Segment>
+                                                        <Segment Id="5ed51fbc-eec4-8dc4-0c1e-3ec4f28ed741">
+                                                            <Segment.EndPoint>
+                                                                <Point Id="785b9a5a-ac9d-657f-fdfb-b49ecfd80840" />
+                                                            </Segment.EndPoint>
+                                                        </Segment>
+                                                    </HotSpot.Segments>
+                                                </HotSpot>
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+                <KeyFrame Duration="250" Id="87fd5e18-e719-b1eb-880b-d9d5c18d6f79">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="4c8afac8-e845-8844-d017-10b7d44b7d69" StartTimeMilliseconds="50" Duration="250">
+                            <Add.Item>
+                                <Rectangle Background="#FF8D8D8D" Opacity="0.8" Id="18d69c27-825d-82be-0078-a25a3a107a82" Name="overlay" Panel.Bounds="-1,0,379{5,2147483647},647{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Move To="12,29" Top="True" Target="8ef6faf1-5e53-053e-4afb-c76ef2d71728" StartTimeMilliseconds="50" Duration="250" />
+                        <Set Property="Button.Text" Value="UPDATE" Target="bb845aef-5eef-3ca4-f7c7-16a1159c6223" StartTimeMilliseconds="50" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
